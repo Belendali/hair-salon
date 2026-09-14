@@ -1,0 +1,61 @@
+{
+  "blender": "4.2.0",
+  "hair_material": {
+    "roughness": 0.84,
+    "specular_ior_level": 0.18,
+    "coat_weight": 0,
+    "micro_relief": "Blender only, not baked"
+  },
+  "bones": [
+    "root",
+    "hips",
+    "spine",
+    "neck",
+    "head",
+    "jaw",
+    "glasses",
+    "upper_arm.L",
+    "forearm.L",
+    "hand.L",
+    "thigh.L",
+    "shin.L",
+    "foot.L",
+    "eye.L",
+    "brow.L",
+    "upper_arm.R",
+    "forearm.R",
+    "hand.R",
+    "thigh.R",
+    "shin.R",
+    "foot.R",
+    "eye.R",
+    "brow.R"
+  ],
+  "actions": [
+    "Idle",
+    "Walk",
+    "Sit",
+    "AdjustGlasses",
+    "Happy",
+    "Angry",
+    "Talk"
+  ],
+  "face_shape_keys": [
+    "Basis",
+    "Smile",
+    "Frown",
+    "CheekRaise",
+    "BrowAngry",
+    "JawOpen",
+    "Ouch"
+  ],
+  "glasses_min_clearance": 0.10912361741065979,
+  "mesh_count": 20,
+  "vertices": 78452,
+  "limitations": [
+    "Prototype weighting, not production retopology",
+    "Procedural fabric shader is Blender-only; GLB needs texture baking",
+    "Jaw bone not yet linked to face shape keys",
+    "Integrated with runtime IK and face morph blending in Demo 30"
+  ]
+}

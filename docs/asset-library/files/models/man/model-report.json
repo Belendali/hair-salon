@@ -1,0 +1,67 @@
+{
+  "character": "man",
+  "source": "Accepted procedural Demo 29 geometry, rebuilt as editable Blender meshes",
+  "bones": [
+    "root",
+    "hips",
+    "spine",
+    "neck",
+    "head",
+    "jaw",
+    "upper_arm.L",
+    "forearm.L",
+    "hand.L",
+    "finger1.L",
+    "finger2.L",
+    "finger3.L",
+    "finger4.L",
+    "thigh.L",
+    "shin.L",
+    "foot.L",
+    "eye.L",
+    "brow.L",
+    "upper_arm.R",
+    "forearm.R",
+    "hand.R",
+    "finger1.R",
+    "finger2.R",
+    "finger3.R",
+    "finger4.R",
+    "thigh.R",
+    "shin.R",
+    "foot.R",
+    "eye.R",
+    "brow.R"
+  ],
+  "clips": [
+    "Idle",
+    "Walk",
+    "Sit",
+    "LookAround",
+    "ScratchHead",
+    "Pay",
+    "Happy",
+    "Angry",
+    "Talk"
+  ],
+  "meshes": 83,
+  "vertices": 114569,
+  "expression_controls": [
+    "Smile",
+    "Frown",
+    "Blink",
+    "Talk"
+  ],
+  "notes": [
+    "Segmented source topology preserved for colleague refinement",
+    "Finger controls are one bone per finger, not phalange chains",
+    "Animation clips are drafts; contacts, knee bends and cloth need refinement",
+    "Optional man graft tufts are hidden for the bald base appearance"
+  ],
+  "validated_expression_values": {
+    "Happy": 0.8999999761581421,
+    "Angry": 0.949999988079071,
+    "Talk": 0.5098322033882141
+  },
+  "normalized_skin_weights": true
+}
