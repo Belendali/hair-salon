@@ -16,7 +16,7 @@ export function createRiggedGranny(root,gltf){
   const SCALE=2.08,CENTER=5.10;
   const visual=new T.Group();visual.name='blender-granny-v3';visual.scale.setScalar(SCALE);visual.position.y=-CENTER*SCALE;
   root.add(visual);visual.add(gltf.scene);
-  const rig=gltf.scene.getObjectByName('GRANNY_RIG'),bones={};rig.traverse(o=>{if(o.isBone)bones[o.name.replace(/hair-salon/(upper_arm|forearm|hand|thigh|shin|foot|eye|brow)([LR])$/,'$1.$2')]=o;});
+  const rig=gltf.scene.getObjectByName('GRANNY_RIG'),bones={};rig.traverse(o=>{if(o.isBone)bones[o.name.replace(/(upper_arm|forearm|hand|thigh|shin|foot|eye|brow)([LR])$/,'$1.$2')]=o;});
   if(!bones.head||!bones.glasses)throw new Error('Granny skeleton is incomplete');
   const rest=Object.fromEntries(Object.entries(bones).map(([name,b])=>[name,{position:b.position.clone(),quaternion:b.quaternion.clone()}]));
   const meshes=[];gltf.scene.traverse(o=>{if(o.isMesh){o.frustumCulled=false;meshes.push(o);}});

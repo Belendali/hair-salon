@@ -13,7 +13,7 @@ def prepare(path, data):
     if path.suffix in {'.html', '.css', '.js', '.mjs'} and 'vendor' not in path.parts:
         text = data.decode('utf-8')
         text = text.replace('href="/versions/"', 'href="' + ORIGIN + '/versions/"')
-        text = re.sub(r'([\"\x27`(])/(?!/)', lambda m: m[1] + BASE, text)
+        text = re.sub(r'([\"\x27`(])/(?=(?:assets/|vendor/|favicon\.svg|style\.css|fonts\.css|game\.js))', lambda m: m[1] + BASE, text)
         data = text.encode('utf-8')
     return data
 
