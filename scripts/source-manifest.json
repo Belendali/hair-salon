@@ -1,0 +1,350 @@
+[
+  {
+    "path": "_headers",
+    "sha256": "7928c0fe9e29e44d7dcc200d274199df07f17ce7a8bb7cc1d114510099b9a5b4"
+  },
+  {
+    "path": "assets/angry-v6.wav",
+    "sha256": "7e13db48265493902338d5d412ed5ac1b6ab1ff871571f92f023814373af603c"
+  },
+  {
+    "path": "assets/audio-v33/door-open.wav",
+    "sha256": "18575c9b86acd5e3339fb7f5f50ec20a4176db011cf59ee6103420e650329abb"
+  },
+  {
+    "path": "assets/audio-v33/doorbell.wav",
+    "sha256": "79c6d8d3bb999d7315d117fddfcf1127e8f450dc84fb531756c07b37934539a8"
+  },
+  {
+    "path": "assets/audio-v33/ending-bad.wav",
+    "sha256": "44325badf59e9fa00dec961ac51da32aa7538fab5b231bf0b79e8ce35153d7c4"
+  },
+  {
+    "path": "assets/audio-v33/ending-great.wav",
+    "sha256": "f610e1d230ece0f4b2871401c1c6109b4b8a1cdef3fef998bb8412e11dd7f4ba"
+  },
+  {
+    "path": "assets/audio-v33/girl-angry.wav",
+    "sha256": "8c4b3cacea2f947520d845c299e5712b27ff9787a5bb603631e719cd9dd11eb8"
+  },
+  {
+    "path": "assets/audio-v33/girl-sigh.wav",
+    "sha256": "f1aa00fc166e763f6cd94678748ee9f871806595358fb4d5dc4bbd154ec34ee3"
+  },
+  {
+    "path": "assets/audio-v33/girl-sneeze.wav",
+    "sha256": "a30ae004c13560e2e015e757c55b56450573b23d38512128c36cb199eedb00a3"
+  },
+  {
+    "path": "assets/audio-v33/granny-angry.wav",
+    "sha256": "9acd681682e0e98fa173ed808e393ecc990c327a855f6fa703e7de62b9350308"
+  },
+  {
+    "path": "assets/audio-v33/granny-ouch.wav",
+    "sha256": "7092be3497d6e92c0087bb2f7ca6c0ed2397a05fa432539930945f4492025067"
+  },
+  {
+    "path": "assets/audio-v33/granny-pain.wav",
+    "sha256": "98b3ef43c0caa4c2a5e34f9dc24d81ea56f5436cad7e00bf9db43989fcba117f"
+  },
+  {
+    "path": "assets/audio-v33/granny-sigh.wav",
+    "sha256": "0a510ed1837fb54f1eb60f3cc09cbff9c8290199a4009f79ef17c1a27679a8a4"
+  },
+  {
+    "path": "assets/audio-v33/man-angry.wav",
+    "sha256": "d1d8fc44305b1a8f6db5cd77ae4dacf1d5f1e0a2631fb56e16f9afdc6d8cff04"
+  },
+  {
+    "path": "assets/audio-v33/man-happy.wav",
+    "sha256": "13685d48ae486c530dbacd04ee3c7754b0c17d1441b564bc3228827c21b02152"
+  },
+  {
+    "path": "assets/audio-v33/man-pain.wav",
+    "sha256": "9260a3300c1b4b6c98b3c9d44deaaf1ce092fe8ae6093323b0c7dd0dd4a7e628"
+  },
+  {
+    "path": "assets/audio-v33/manifest.json",
+    "sha256": "ada68b6ce3d09757a6362f594680108818ce0132a2c9f0ccdbfd80908dfb0f74"
+  },
+  {
+    "path": "assets/audio-v33/music.mp3",
+    "sha256": "d8ad19d08eba8269739d09c55470cd9f9dca377fed12970ccb2776a20623695d"
+  },
+  {
+    "path": "assets/audio-v33/step.wav",
+    "sha256": "afcb88c45fc605399c7440e3d9850fb31cb8f1dfcfaaddd99eccc91f628d9fbf"
+  },
+  {
+    "path": "assets/barber-cap-v11.png",
+    "sha256": "9fc0271aedf94d449e5a24e48956ec190ec3b07c3b0d36c557170bec135b0866"
+  },
+  {
+    "path": "assets/barber-cap.png",
+    "sha256": "5e56b6a82803f1eff965dd7dd94d3fe29aec6b8e690f0980edf3af9c8a4f937e"
+  },
+  {
+    "path": "assets/barber-moustache-v11.png",
+    "sha256": "1693e21a45241f1720818391911291e67863e16d08e4c92401c04afc79b7513b"
+  },
+  {
+    "path": "assets/barber-moustache.png",
+    "sha256": "53b305332aae684b9a39083c42386a945913c88bedbc071bb38daa18bd5b90ed"
+  },
+  {
+    "path": "assets/client-chatter-v10.wav",
+    "sha256": "8dd3a4096989c1b9b659ebee71cb94dcd69d98878d3a2aaeefeec452e85e4ef9"
+  },
+  {
+    "path": "assets/client-sigh-v10.wav",
+    "sha256": "04cfe024ca478d7014de51c4f50703d3c828f70eaf87a637330af7adbac93dfd"
+  },
+  {
+    "path": "assets/font-0.ttf",
+    "sha256": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9"
+  },
+  {
+    "path": "assets/font-1.ttf",
+    "sha256": "376427b5322148d8de1e03f263bcca4935a2d60ba71d9f94f4947ab664c711ae"
+  },
+  {
+    "path": "assets/font-2.ttf",
+    "sha256": "b79a2ea7a38f33fd96a282fadb9ce97626bb0724a44d21075859f0e50239993a"
+  },
+  {
+    "path": "assets/font-3.ttf",
+    "sha256": "2a8e7f713ee79fbccdef3cef5c787aff47580299f7da60144961e7db2ec08211"
+  },
+  {
+    "path": "assets/font-4.ttf",
+    "sha256": "69dd373c3a195748b359f4dedd3152bae62807e6815e993fbf5df7938b696b40"
+  },
+  {
+    "path": "assets/font-5.ttf",
+    "sha256": "594cd6463e8eccef94423fba8e0114c137492f6415af4b414b21b73abcb644a8"
+  },
+  {
+    "path": "assets/font-6.ttf",
+    "sha256": "a7d1d662d6afe2bc7f9ba11dc6247eb06d9587c2210fee04d9edb83d555670c2"
+  },
+  {
+    "path": "assets/granny-grumble-v9.wav",
+    "sha256": "9ac633524198abd260e578731dde3accad3b35eb13739bfc00b9de5c50a45abf"
+  },
+  {
+    "path": "assets/granny-ouch-v10.wav",
+    "sha256": "3725fda7c76c95d82e7f9381e6c449dd6850f4a77065077593a800ffbc454869"
+  },
+  {
+    "path": "assets/granny-pleased-v9.wav",
+    "sha256": "e1299455fe98722a9eeb8911b74a4cb309e4257f035d2dff3501fcde4ab759c5"
+  },
+  {
+    "path": "assets/granny-v3.glb",
+    "sha256": "a4cd88d35ddb7128d9bfc02e3e427c9e27c65550a78ea407f680f32d41ddd30e"
+  },
+  {
+    "path": "assets/oh-no-v6.wav",
+    "sha256": "f9f318393e9b03438998e4bbdd30e7337b813b30be6ff926674e0599cdb354b8"
+  },
+  {
+    "path": "assets/salon-bounce-v9.wav",
+    "sha256": "155cdc3ca7d13e5960940058720c4e56cc2e0962c368cb86a2d4b3f03491e751"
+  },
+  {
+    "path": "assets/thanks-v6.wav",
+    "sha256": "e0cbcf4895502e494528100be3898734d438cfb9f17ef78fca277e39d0a34b86"
+  },
+  {
+    "path": "assets/voices-v32/girl-angry.wav",
+    "sha256": "f15b7de295831800c86d1f759bf3661371848378d29180dbcf6d96cad2d7b240"
+  },
+  {
+    "path": "assets/voices-v32/girl-happy.wav",
+    "sha256": "65d8fa6adff5a57fc4451001e26ab46e2e892ef88b7654d85024770de8c2a1c8"
+  },
+  {
+    "path": "assets/voices-v32/girl-request.wav",
+    "sha256": "13dcfb11ed7cce393bed25aff415461838c44fbdf196f42945890b207c483f99"
+  },
+  {
+    "path": "assets/voices-v32/girl-sigh.wav",
+    "sha256": "fc8debfd4eb8e6b80ce042444463f12a0afc902319001926efcb1bd77c4658fa"
+  },
+  {
+    "path": "assets/voices-v32/girl-sneeze.wav",
+    "sha256": "396570069d2907f8d4a43e9f139bcf1cf462b0a65f9ae7de750b4a4c14772c92"
+  },
+  {
+    "path": "assets/voices-v32/granny-angry.wav",
+    "sha256": "37eee687ab17a16f28c57520a2f667f0deea222d940e57d65af9ff62289fe610"
+  },
+  {
+    "path": "assets/voices-v32/granny-happy.wav",
+    "sha256": "666da5c7aedb012419f3a0bea2f4b20cdd9917791bed16fb089fb290c5f2754f"
+  },
+  {
+    "path": "assets/voices-v32/granny-pain.wav",
+    "sha256": "59edda69ea4d8d71c655c09e9f55c9cecc48a5c328906cc53f901b8adffa575d"
+  },
+  {
+    "path": "assets/voices-v32/granny-request.wav",
+    "sha256": "fbe56eaa28f3aa1a76d38718507beb7bbee3095b568e07b7f938fb8317f8c03b"
+  },
+  {
+    "path": "assets/voices-v32/granny-sigh.wav",
+    "sha256": "15b3300e9ca3fa21e1a21193b74259370b764cd36b783a6600e92b18d213da77"
+  },
+  {
+    "path": "assets/voices-v32/man-angry.wav",
+    "sha256": "40d8dacebe023c11fa52cd5e6e51b5fa7033189f7b83fd10d5090347d4457959"
+  },
+  {
+    "path": "assets/voices-v32/man-happy.wav",
+    "sha256": "aa923c1399c38c49e5142c961ef8ba7e8f977b4fe7d1660c5d65f859b88cd223"
+  },
+  {
+    "path": "assets/voices-v32/man-pain.wav",
+    "sha256": "2286d9c335b01637bcda569aafdf2d18ac9bdcc388d4954b21e15f63bc76002d"
+  },
+  {
+    "path": "assets/voices-v32/man-request.wav",
+    "sha256": "e502262be4cea277a64d1a00295ee10362c77adb41ff4060847edebc7edf6dfa"
+  },
+  {
+    "path": "assets/voices-v32/man-sigh.wav",
+    "sha256": "f92c5e48e354f5bcfc2df5c962807c84e55462cfc95b44cf764e87758f55e50d"
+  },
+  {
+    "path": "assets/voices-v32/manifest.json",
+    "sha256": "00160c3cbff5a1a74b4a2a93924332b84aee37e83c98e88761d7901ec671131a"
+  },
+  {
+    "path": "audio-cues.mjs",
+    "sha256": "1ee3c90ab97d91c9fce7cf13b4a316bc85508cd365df2bcc1aa7e7dfa7c22dac"
+  },
+  {
+    "path": "avatar.mjs",
+    "sha256": "fd1c8e71b06a88650086ad034ecf63143346c8d211605d310971ae7ec4a9cb34"
+  },
+  {
+    "path": "camera-view.mjs",
+    "sha256": "e3b629360502bcc3b0a5632411a5272e31fb9d80aff445497f6db1aee161641d"
+  },
+  {
+    "path": "face-points.mjs",
+    "sha256": "cbf84c02284b7c04d363aaa5ed4fac48a4486599235baec68e31f023eed565ff"
+  },
+  {
+    "path": "face-tracker.mjs",
+    "sha256": "5d85da333b0ee06175ab4b400474c5b2f699cf2503ee84996c5a8e0e5599aa5e"
+  },
+  {
+    "path": "face-worker.js",
+    "sha256": "83fe4cb60b7a6f44382ea513efc834d57dbf3da8ae6afe1b5c8cdde40f1cf185"
+  },
+  {
+    "path": "favicon.svg",
+    "sha256": "45669592e0d16edfb3548d81e1a8698aa604a28a4dad2168bc9ba7e27982fffa"
+  },
+  {
+    "path": "fonts.css",
+    "sha256": "943bbedce4ba8e4eb6b09675a0443e8b101184269f86c11c195af466f6518e72"
+  },
+  {
+    "path": "game.js",
+    "sha256": "c633551a2a945fcab0656cfc069ab663492cdd91bb9e7956083e5be10dd3902e"
+  },
+  {
+    "path": "girl-model.mjs",
+    "sha256": "7a26d41655879144ca03c4162a868106c10a6457e920df1484125daa707cdcfe"
+  },
+  {
+    "path": "granny-model.mjs",
+    "sha256": "66894f3cff482e8351564d8d7f30dab146a976a502f47f5af06551eee7142a06"
+  },
+  {
+    "path": "granny-rig.mjs",
+    "sha256": "3c1cfce3f630264a855ab5748728bf80784834b2c61b7e82201eaa4c52149025"
+  },
+  {
+    "path": "index.html",
+    "sha256": "7cd5122f359e8b424bead7dd97e9f786c2b8d942eb33966cb25eb6e3d2216902"
+  },
+  {
+    "path": "man-model.mjs",
+    "sha256": "6e5ac18895cb2d8acd4315b9ff6e9c32f8dd799f1ffc24776c55841bf7298085"
+  },
+  {
+    "path": "payment.mjs",
+    "sha256": "0543ecc275250112e69fb7d787dd049dd5336d4e084ee8f2b725df5552250f3a"
+  },
+  {
+    "path": "rules.mjs",
+    "sha256": "f9f6d6408a01fdeef2435808af1e5e7fd566d0d92893a1548dddf80c59825caf"
+  },
+  {
+    "path": "soundtrack.mjs",
+    "sha256": "e1e9023c5cb0c9d167a61ae9e0c385472ba6c4fcd7231d7855ca5baf97c3124e"
+  },
+  {
+    "path": "style.css",
+    "sha256": "8e71f082999d7232930310a5aeba1ab272b81d85141163faa926dbdad1c07e78"
+  },
+  {
+    "path": "vendor/BufferGeometryUtils.js",
+    "sha256": "248b3e8420bd3de805ca01845c1b0cc62aa2766f3c56bdcead265e306f8e715c"
+  },
+  {
+    "path": "vendor/DMSANS-LICENSE.txt",
+    "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+  },
+  {
+    "path": "vendor/FREDOKA-LICENSE.txt",
+    "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab"
+  },
+  {
+    "path": "vendor/GLTFLoader.js",
+    "sha256": "2904f2823e23d5bc1d64512bf4c0d777ac44d728d47c34a9e3d48ce8ef6b761d"
+  },
+  {
+    "path": "vendor/MEDIAPIPE-LICENSE.txt",
+    "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8"
+  },
+  {
+    "path": "vendor/THREE-LICENSE.txt",
+    "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+  },
+  {
+    "path": "vendor/face_landmarker.task",
+    "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff"
+  },
+  {
+    "path": "vendor/three.core.js",
+    "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+  },
+  {
+    "path": "vendor/three.module.js",
+    "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+  },
+  {
+    "path": "vendor/vision_bundle.mjs",
+    "sha256": "3252b10e0fd26c4095e4b6ee545c1c898120b3a3813388ecd4876abe6f1399a9"
+  },
+  {
+    "path": "vendor/wasm/vision_wasm_internal.js",
+    "sha256": "4a97e2520ba506c680ecd6ba6acfb146888afa0e2746d57f205352bc6ebb82eb"
+  },
+  {
+    "path": "vendor/wasm/vision_wasm_internal.wasm",
+    "sha256": "f00ec4731faa23b3e714d00e88d4d10e2df5c0a427d3a2b4ae6e3526fdd14ef7"
+  },
+  {
+    "path": "vendor/wasm/vision_wasm_nosimd_internal.js",
+    "sha256": "927def7b465c51b86e4b3060f93646aca4e27121f4b8fc0483786e407ea9cf1f"
+  },
+  {
+    "path": "vendor/wasm/vision_wasm_nosimd_internal.wasm",
+    "sha256": "3821ea9b1f7fb8c549ef2a064ef5c85750bf375c545a49fd6eea0df44a95f1f4"
+  }
+]
