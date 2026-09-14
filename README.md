@@ -6,7 +6,7 @@ Play: https://belendali.github.io/hair-salon/
 
 Open in Safari or Chrome and allow the camera for selfie play. Camera images are processed on the device. No account is needed.
 
-The static game is in `docs/`. The first GitHub Actions run imports checksum-verified files from the existing public demo and commits them here. Later publications use the repository files directly. GitHub Settings → Pages → Source must be GitHub Actions.
+The static game is in `docs/`. The first GitHub Actions run unpacks checksum-verified files from the included release archive and commits them here. Later publications use the repository files directly. GitHub Settings → Pages → Source must be GitHub Actions.
 
 Historical demos and the asset catalog remain on the original site: https://panic-salon-bella.belendali.chatgpt.site/versions/
 
