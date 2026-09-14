@@ -1,0 +1,120 @@
+@import url('/hair-salon/fonts.css');
+:root{font-family:'DM Sans',Arial,sans-serif;color:#151515;background:#c7c9cb;font-synthesis:none;-webkit-tap-highlight-color:transparent;color-scheme:light}
+*{box-sizing:border-box}body{margin:0;height:100svh;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#c7c9cb}button{font:inherit;cursor:pointer;border:0;touch-action:manipulation}button:focus-visible{outline:3px solid #728400;outline-offset:4px}button:disabled{opacity:.55;cursor:wait}[hidden]{display:none!important}
+#game{width:100%;height:100svh;max-width:500px;position:relative;overflow:hidden;isolation:isolate;touch-action:manipulation;background:#e0e1e2}.room{position:absolute;inset:0;background:radial-gradient(ellipse at 42% 20%,#f3f3f2,#d0d2d3 85%);z-index:0}#selfie{position:absolute;width:100%;height:100%;object-fit:contain;object-position:50% 26%;transform:scaleX(-1);opacity:0;transition:opacity .35s;z-index:1}#selfie.active{opacity:1}#face-filter{filter:grayscale(1);position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none}#scene{position:absolute;inset:0;z-index:3}#scene canvas{width:100%;height:100%;display:block}.edge-shade{position:absolute;inset:0;pointer-events:none;z-index:4;background:linear-gradient(#0000000a,transparent 22%,transparent 83%,#0003)}.topbar{position:absolute;top:max(22px,env(safe-area-inset-top));left:22px;right:19px;display:flex;justify-content:space-between;align-items:center;z-index:7}.wordmark{font-weight:700;font-size:16px;line-height:1;letter-spacing:-.6px;color:#161616}.wordmark span{display:inline;margin-left:4px}.top-actions{display:flex;gap:7px}.icon-button{background:#ffffff70;color:#151515;width:40px;height:40px;border:1px solid #00000016;border-radius:50%;display:grid;place-items:center;backdrop-filter:blur(8px)}.icon-button svg{width:20px;height:20px}.icon-button.on{background:#dcf579;color:#151515}.sound-cross{display:none}.muted .sound-cross{display:block}.muted .sound-waves{display:none}.panel{position:absolute;top:22%;left:8%;width:84%;z-index:6;text-align:center;animation:appear .25s ease both}.eyebrow{display:none}h1,h2{font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:-1.7px;line-height:.98;margin:0;font-size:clamp(34px,9.3vw,46px);text-transform:uppercase;color:#161616}h1 i{font-style:normal;color:inherit}h2{font-size:clamp(36px,10vw,48px)}.panel p{font-size:15px;line-height:1.45;margin:14px 0 23px;color:#4e5051}.primary{display:flex;align-items:center;justify-content:space-between;margin:auto;width:min(250px,100%);padding:15px 20px;border-radius:7px;background:#161616;color:#fff;font-size:16px;font-weight:700;transition:transform .12s,background .12s}.primary:active{transform:scale(.97);background:#353535}.primary span{font-size:21px;line-height:18px;color:#dcf579}.text-button{background:transparent;color:#55585b;margin-top:10px;padding:10px 12px;font-size:14px;font-weight:500}.privacy{font-size:12px;color:#707477;margin-top:8px}.top-hint{position:absolute;left:50%;top:16%;transform:translateX(-50%);z-index:5;white-space:nowrap;font-size:20px;font-weight:700;color:#fff;text-shadow:0 1px 3px #000,-1px 0 #333,1px 0 #333;letter-spacing:-.4px}.white-dot{display:none}.bottom-bar{position:absolute;bottom:max(25px,env(safe-area-inset-bottom));left:0;width:100%;z-index:5;text-align:center;pointer-events:none}.instruction{font-size:14px;letter-spacing:.3px;font-weight:700;color:#fff;text-shadow:0 1px 4px #000,0 0 2px #000;padding:6px 12px}.tiny-label{display:none}.result{top:24%;padding:0;background:none;border:0;box-shadow:none}.result p{margin:12px 0 21px;color:#27292b;font-size:15px}.result.win h2,.result.loss h2{color:#151515}.result.win .primary{background:#daf371;color:#151515}.result.win .primary span{color:#151515}.pause{top:24%;padding:24px 12px;background:#e9e9e9ed;border-radius:10px}.pause p{margin:15px 0 24px}#toast{position:absolute;z-index:10;left:7%;right:7%;top:10%;text-align:center;color:#fff;background:#181818ee;border-radius:8px;padding:12px 16px;font-size:14px;line-height:1.4}#feedback{position:absolute;z-index:5;top:43%;left:0;width:100%;text-align:center;pointer-events:none;font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:-1px;color:#fff;font-size:42px;text-shadow:0 2px 0 #171717,0 0 3px #171717;text-transform:uppercase;opacity:0}#feedback.pop{animation:pop .75s ease both}.loading{position:absolute;inset:0;z-index:20;background:#e0e1e2;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:15px;color:#555}.spinner{height:27px;width:27px;border:2px solid #bfc2c4;border-top-color:#151515;border-radius:50%;animation:spin .7s linear infinite}.camera-active .wordmark{color:#fff;text-shadow:0 1px 4px #0009}.camera-active .panel h1,.camera-active .panel h2{color:#fff;text-shadow:0 2px 2px #0008,0 0 3px #0008}.camera-active .panel p,.camera-active .panel .text-button,.camera-active .privacy{color:#fff;text-shadow:0 1px 3px #000}.camera-active .pause{background:#252525df}.camera-active .primary{background:#fff;color:#171717}.camera-active .primary span{color:#171717}.camera-active .result.win .primary{background:#daf371}.fatal{z-index:30;position:absolute;inset:30% 8% auto;text-align:center;padding:25px;border-radius:10px;background:#eee}.fatal button{margin-top:20px}
+@keyframes appear{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes pop{0%{opacity:0;scale:.9}20%{opacity:1;scale:1.05}50%{opacity:1;scale:1}100%{opacity:0;translate:0 -10px}}
+@media(min-width:600px){#game{height:min(96svh,940px);width:min(48svh,470px);border-radius:12px;box-shadow:0 18px 70px #0002}.topbar{top:23px}h1{font-size:42px}}
+@media(max-height:740px){.panel{top:20%}h1{font-size:34px}.panel p{margin:11px 0 17px;font-size:14px}.primary{padding:13px 18px}.text-button{margin-top:5px}.privacy{display:none}.result{top:23%}.result h2{font-size:36px}.top-hint{top:16%;font-size:18px}.topbar{top:max(16px,env(safe-area-inset-top))}.instruction{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.panel{animation:none}#feedback.pop{animation:none;opacity:1}.spinner{animation-duration:1.5s}}
+
+.version-link{display:block;width:max-content;font-size:10px;letter-spacing:1.5px;font-weight:600;color:inherit;opacity:.65;text-decoration:none;margin-top:9px;padding:3px 0}.version-link:focus-visible{outline:2px solid #728400}.camera-active .version-link{color:white}
+
+.filter-retry{position:absolute;z-index:8;top:21%;left:50%;transform:translateX(-50%);padding:10px 16px;border-radius:24px;background:#fff;color:#171717;font-size:14px;box-shadow:0 2px 14px #0002}
+
+/* A quieter HUD leaves the selfie and client in focus. */
+.top-hint{top:max(80px,calc(env(safe-area-inset-top) + 67px));display:flex;align-items:center;gap:22px;background:#f6f5f0eb;color:#272a29;border:1px solid #ffffff80;border-radius:40px;padding:10px 16px;font-size:11px;letter-spacing:1.1px;text-shadow:none;box-shadow:0 5px 22px #00000009;backdrop-filter:blur(12px)}
+.progress-label{display:flex;align-items:center;gap:9px}.progress-label b{font-size:19px;letter-spacing:-.5px;line-height:1}.progress-label i{font-style:normal;color:#949991;font-size:13px;margin-left:2px}.patience{display:flex;gap:5px;border-left:1px solid #cdd1c9;padding-left:14px}.patience-dot{width:7px;height:7px;border-radius:50%;background:#758077}.patience-dot.spent{background:#ce705d}
+#feedback{font-size:34px;top:45%;letter-spacing:-1px}.bottom-bar{bottom:max(17px,env(safe-area-inset-bottom))}.instruction{font-size:12px;letter-spacing:.8px}.room{background:radial-gradient(ellipse at 32% 20%,#f6f4ee 0%,#e2e2dc 48%,#c6cbc7 100%)}
+
+/* Tip stays visible through the handoff, without covering the player's face. */
+.tip-chip{position:absolute;z-index:7;right:19px;top:max(78px,calc(env(safe-area-inset-top) + 64px));display:flex;align-items:center;gap:8px;padding:10px 13px;background:#dcf579;border:1px solid #eafaaf;border-radius:22px;box-shadow:0 4px 18px #0001;color:#233020}.tip-chip span{font-size:10px;font-weight:700;letter-spacing:.8px}.tip-chip b{font-size:20px;line-height:1;letter-spacing:-.5px}.tip-chip.earned{animation:tip-pop .6s cubic-bezier(.22,1.4,.5,1)}
+.top-hint{left:20px;transform:none;gap:12px;padding:11px 13px}.progress-label{font-size:10px;gap:7px}.patience{padding-left:10px;gap:4px}.patience-dot{width:6px;height:6px}
+@keyframes tip-pop{0%{transform:scale(.75)}55%{transform:scale(1.12)}100%{transform:scale(1)}}
+@media(max-width:360px){.top-hint{left:12px;gap:7px;padding:11px 9px}.tip-chip{right:12px;padding:10px}.tip-chip span{font-size:9px}.topbar{left:15px;right:12px}.top-actions{gap:5px}}
+
+/* Service close-up keeps the upper selfie clear and gives the tools room. */
+#game{touch-action:none}#face-filter{filter:none}.camera-active .edge-shade{background:linear-gradient(transparent 92%,#00000012)}
+.bottom-bar{bottom:max(10px,env(safe-area-inset-bottom));padding:0 8px}.instruction{display:inline-block;max-width:100%;font-size:12px;line-height:1.35;background:#17191ddb;border-radius:20px;padding:8px 13px;letter-spacing:.25px;text-shadow:none}
+.instruction:empty{display:none}
+
+/* Short, nonblocking gesture demonstrations anchored to the working tools. */
+.gesture-hint{position:absolute;z-index:6;width:46px;height:56px;pointer-events:none;user-select:none;filter:drop-shadow(0 2px 5px #0003)}
+.gesture-motion{position:relative;width:46px;height:56px;transform-origin:18px 6px}
+.gesture-hand{display:block;width:46px;height:56px;transform-origin:18px 6px}
+.gesture-label{position:absolute;top:57px;left:18px;transform:translateX(-60%);padding:5px 8px;border-radius:12px;background:#24272bea;color:#fff;font-size:10px;font-weight:700;line-height:1;letter-spacing:.6px;white-space:nowrap}
+.gesture-ring{position:absolute;left:4px;top:-8px;width:28px;height:28px;border:2px solid #fff;border-radius:50%;box-shadow:0 0 0 1px #25282b30;opacity:0}
+.gesture-hint.tap .gesture-hand{animation:gesture-tap 1.65s ease-in-out infinite}
+.gesture-hint.tap .gesture-ring{animation:gesture-ripple 1.65s ease-out infinite}
+.gesture-hint.swipe .gesture-motion{animation:gesture-swipe 1.85s ease-in-out infinite}
+.gesture-hint.swipe .gesture-ring{animation:gesture-grab 1.85s ease-out infinite}
+@keyframes gesture-tap{0%,55%,100%{transform:translateY(-7px)}20%,32%{transform:translateY(0) scale(.95)}}
+@keyframes gesture-ripple{0%,16%{opacity:0;transform:scale(.55)}25%{opacity:.85;transform:scale(.7)}52%{opacity:0;transform:scale(1.6)}100%{opacity:0;transform:scale(1.6)}}
+@keyframes gesture-swipe{0%{opacity:0;transform:translateX(0)}12%,24%{opacity:1;transform:translateX(0)}70%{opacity:1;transform:translateX(calc(-1 * var(--travel)))}84%,100%{opacity:0;transform:translateX(calc(-1 * var(--travel)))}}
+@keyframes gesture-grab{0%,12%{opacity:0;transform:scale(.7)}22%{opacity:.8;transform:scale(.9)}35%,100%{opacity:0;transform:scale(1.4)}}
+@media(prefers-reduced-motion:reduce){.gesture-hint .gesture-motion,.gesture-hint .gesture-hand,.gesture-hint .gesture-ring{animation:none}.gesture-hint .gesture-ring{opacity:.5}}
+
+.tip-chip{gap:6px;padding:10px 11px}.tip-chip b{font-size:18px}.tip-chip .tip-max{font-size:12px;font-weight:600;letter-spacing:0;opacity:.7}
+
+.gesture-hint.graft .gesture-motion{animation:gesture-place 1.85s ease-in-out infinite}.gesture-hint.graft .gesture-ring{animation:gesture-grab 1.85s ease-out infinite}
+@keyframes gesture-place{0%{opacity:0;transform:translate(0,0)}12%,24%{opacity:1;transform:translate(0,0)}70%{opacity:1;transform:translate(var(--place-x),var(--place-y))}84%,100%{opacity:0;transform:translate(var(--place-x),var(--place-y))}}
+@media(prefers-reduced-motion:reduce){.gesture-hint.graft .gesture-motion,.gesture-hint.graft .gesture-ring{animation:none}}
+
+/* A finished shift: a bold earnings reveal over the player's selfie. */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.shift-complete .edge-shade{background:#12161950}.shift-complete #scene{visibility:hidden}.shift-complete .filter-retry{visibility:hidden}
+.checkout.panel{top:calc(50% + 24px);left:7%;width:86%;max-height:calc(100svh - 150px);overflow:auto;overscroll-behavior:contain;touch-action:pan-y;transform:translateY(-50%);padding:28px 24px 18px;background:#151817f5;border:1px solid #ffffff29;border-radius:22px;box-shadow:0 24px 80px #0004;backdrop-filter:blur(14px);color:#f6f7f1;animation:checkout-in .5s cubic-bezier(.18,1.3,.5,1) both}
+.checkout .eyebrow{display:block;font-size:12px;font-weight:700;letter-spacing:2px;color:#dcf579;margin-bottom:14px}
+#game .checkout h2{font-size:38px;color:#f6f7f1;text-shadow:none;letter-spacing:-1.5px}
+.earnings-label{margin-top:24px;font-size:12px;letter-spacing:1.5px;font-weight:600;color:#b6beb7}
+.earnings-total{font-size:clamp(80px,24vw,110px);font-weight:800;line-height:1.06;letter-spacing:-6px;white-space:nowrap;color:#dcf579;font-variant-numeric:tabular-nums}
+.earnings-total span{font-size:.5em;vertical-align:15%;margin-right:5px;letter-spacing:-2px}.earnings-total b{font-weight:800}
+.earnings-max{font-size:12px;font-weight:600;letter-spacing:1px;color:#8e9b8f}
+.earnings-receipt{border-top:1px dashed #ffffff36;border-bottom:1px dashed #ffffff36;margin:23px 0 0;padding:14px 0;display:grid;gap:12px;text-align:left;font-size:14px;line-height:1.25}
+.earnings-receipt div{display:flex;justify-content:space-between;gap:15px}.earnings-receipt dt{color:#c0c9c1}.earnings-receipt dd{margin:0;font-weight:700;font-variant-numeric:tabular-nums}
+#game .checkout p{font-size:14px;color:#c0c9c1;text-shadow:none;line-height:1.4;margin:17px 0}
+#game .checkout .primary{background:#dcf579;color:#151817;width:100%;border-radius:9px}#game .checkout .primary span{color:inherit}
+#game .checkout .text-button{color:#d0d7d1;text-shadow:none}.total-landed .earnings-total{animation:total-bounce .55s cubic-bezier(.2,1.6,.4,1)}
+.checkout-confetti{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:inherit}.checkout-confetti i{position:absolute;top:0;left:var(--x);width:6px;height:13px;background:#dcf579;opacity:0;animation:checkout-confetti 2.3s calc(var(--i)*.035s + .08s) ease-out both}.checkout-confetti i:nth-child(3n){background:#f5f6ee}.checkout-confetti i:nth-child(3n + 1){background:#a9e5dd;width:5px;height:9px}
+@keyframes checkout-in{from{opacity:0;transform:translateY(-44%) scale(.94)}to{opacity:1;transform:translateY(-50%) scale(1)}}
+@keyframes total-bounce{0%{transform:scale(1)}38%{transform:scale(1.09)}100%{transform:scale(1)}}
+@keyframes checkout-confetti{0%{opacity:0;transform:translate(0,-20px) rotate(0)}12%{opacity:1}100%{opacity:0;transform:translate(var(--drift),470px) rotate(470deg)}}
+@media(max-height:740px){.checkout.panel{padding:22px 20px 12px;max-height:calc(100svh - 118px)}.checkout .eyebrow{margin-bottom:10px}#game .checkout h2{font-size:32px}.earnings-label{margin-top:18px}.earnings-total{font-size:86px}.earnings-receipt{margin-top:17px;padding:12px 0;gap:10px}#game .checkout p{margin:13px 0}}
+@media(prefers-reduced-motion:reduce){.checkout.panel,.total-landed .earnings-total,.checkout-confetti i{animation:none}.checkout-confetti{display:none}}
+
+/* The planting challenge: a visible timing window with three clear outcomes. */
+.pressure-meter{--power:0%;--safe-left:46%;--safe-width:28%;position:absolute;z-index:5;top:51%;left:18%;width:64%;max-width:310px;padding:12px 14px 9px;border-radius:14px;background:#1b201fea;color:#f6f8f1;box-shadow:0 4px 22px #0002;pointer-events:none;backdrop-filter:blur(9px)}
+#pressure-label{text-align:center;font-size:12px;font-weight:700;letter-spacing:.5px;line-height:1.3;margin-bottom:10px}
+.pressure-track{height:14px;position:relative;border-radius:5px;background:#f6f6ee25}
+.pressure-fill{position:absolute;inset:0 auto 0 0;width:var(--power);background:#f0f0e355;border-radius:5px}
+.pressure-safe{position:absolute;top:-2px;bottom:-2px;left:var(--safe-left);width:var(--safe-width);background:#dcf579;border-radius:4px;box-shadow:0 0 10px #dcf57930}
+.pressure-needle{position:absolute;left:var(--power);top:-5px;bottom:-5px;width:3px;background:white;transform:translateX(-50%);border-radius:2px;box-shadow:0 0 0 1px #13171570}
+.pressure-ends{display:flex;justify-content:space-between;font-size:10px;font-weight:600;letter-spacing:.7px;color:#b0b9b0;margin-top:8px}
+.pressure-meter[data-status="good"] #pressure-label{color:#dcf579}.pressure-meter[data-status="deep"] #pressure-label{color:#ffb2a3}
+.gesture-hint.hold .gesture-hand{animation:gesture-hold 1.85s ease-in-out infinite}.gesture-hint.hold .gesture-ring{animation:gesture-hold-ring 1.85s ease-in-out infinite}
+@keyframes gesture-hold{0%,100%{transform:translateY(-7px)}18%,68%{transform:translateY(0) scale(.95)}82%{transform:translateY(-7px)}}
+@keyframes gesture-hold-ring{0%,10%,85%,100%{opacity:0;transform:scale(.7)}20%,65%{opacity:.8;transform:scale(1.15)}}
+@media(prefers-reduced-motion:reduce){.gesture-hint.hold .gesture-hand,.gesture-hint.hold .gesture-ring{animation:none}}
+
+/* Preserve the face size while blending the full feed into its soft surround. */
+#selfie-ambient{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scaleX(-1) scale(1.12);filter:blur(25px) saturate(.8);opacity:0;z-index:0;pointer-events:none}.camera-active #selfie-ambient{opacity:.72}
+#selfie{object-fit:fill;object-position:center;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 9%,#000 84%,transparent);mask-image:linear-gradient(to bottom,transparent,#000 9%,#000 84%,transparent)}
+.pressure-meter{top:max(145px,calc(50% - 175px))}
+
+/* Demo 21: touch gameplay has no native selection/callout; the gauge lives inside the syringe. */
+#game,#game canvas,#game video{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+#game canvas,#game video{-webkit-user-drag:none}
+.pressure-meter{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip-path:inset(50%);white-space:nowrap;pointer-events:none}
+
+/* Camera comparison: full selfie or a contained selfie grounded in the salon. */
+html[data-camera-mode="full"] #selfie{-webkit-mask-image:none;mask-image:none}
+html[data-camera-mode="full"] #selfie-ambient{display:none}
+html[data-camera-mode="salon"] #selfie{-webkit-mask-image:linear-gradient(#000 0%,#000 91%,transparent 100%);mask-image:linear-gradient(#000 0%,#000 91%,transparent 100%)}
+html[data-camera-mode="salon"] #selfie-ambient{filter:blur(15px) saturate(.65);opacity:.35}
+
+/* Open results stage: glass jar above, returning customers below. */
+.shift-complete #scene{visibility:visible}
+#game .checkout.panel{inset:0;width:100%;height:100%;max-height:none;padding:0;transform:none;overflow:hidden;background:none;border:0;border-radius:0;box-shadow:none;backdrop-filter:none;animation:none;pointer-events:none}
+#game .checkout .eyebrow{position:absolute;top:13%;width:100%;margin:0;color:#e6f4cb}
+#game .checkout h2{position:absolute;top:17%;width:100%;font-size:clamp(30px,8vw,40px);color:white;text-shadow:0 2px 8px #0008}
+#game .checkout.loss .eyebrow{color:#ffb89e}
+#game .checkout .earnings-label{position:absolute;top:32%;width:100%;margin:0;color:white;text-shadow:0 1px 5px #000;font-size:14px}
+#game .checkout .earnings-total{position:absolute;top:37%;width:100%;font-size:clamp(42px,13vw,62px);letter-spacing:-2px;color:#fff;text-shadow:0 2px 7px #142c2d}
+#game .checkout .earnings-max{position:absolute;top:52%;width:100%;font-size:12px;color:#fff;text-shadow:0 1px 4px #000}
+#game .checkout .earnings-receipt{display:none}
+#game .checkout p{position:absolute;top:56%;width:100%;margin:0;padding:0 24px;color:white;text-shadow:0 1px 4px #000}
+#game .checkout .primary{position:absolute;bottom:8%;left:25%;width:50%;pointer-events:auto}
+#game .checkout .text-button{position:absolute;bottom:1%;left:25%;width:50%;pointer-events:auto;color:white}
+#game .checkout.loss .primary{background:#f2d0c2}
+.checkout.loss .checkout-confetti{display:none}
+.checkout.win .checkout-confetti i{animation-duration:3.8s;animation-iteration-count:2}
+@keyframes checkout-confetti{0%{opacity:0;transform:translate(0,-20px) rotate(0)}10%{opacity:1}100%{opacity:0;transform:translate(var(--drift),100svh) rotate(470deg)}}

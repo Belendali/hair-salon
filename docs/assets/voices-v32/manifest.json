@@ -1,0 +1,165 @@
+{
+  "version": 32,
+  "type": "local synthetic cartoon voice draft",
+  "sample_rate": 44100,
+  "profiles": {
+    "granny": {
+      "base": "awb",
+      "pitch": 1.42,
+      "formant": 1.12,
+      "tempo": 1.17,
+      "eq": "equalizer=f=1300:t=q:w=1.4:g=2.5,vibrato=f=5.1:d=0.10"
+    },
+    "girl": {
+      "base": "slt",
+      "pitch": 1.12,
+      "formant": 1.04,
+      "tempo": 1.21,
+      "eq": "equalizer=f=2300:t=q:w=1:g=1.5"
+    },
+    "man": {
+      "base": "rms",
+      "pitch": 0.9,
+      "formant": 0.96,
+      "tempo": 1.09,
+      "eq": "equalizer=f=290:t=q:w=1:g=2"
+    }
+  },
+  "clips": [
+    {
+      "character": "granny",
+      "event": "request",
+      "file": "granny-request.wav",
+      "duration": 1.272,
+      "peak_db": -3.53,
+      "rms_db": -19.14,
+      "sha256": "fbe56eaa28f3aa1a76d38718507beb7bbee3095b568e07b7f938fb8317f8c03b"
+    },
+    {
+      "character": "granny",
+      "event": "happy",
+      "file": "granny-happy.wav",
+      "duration": 1.072,
+      "peak_db": -2.71,
+      "rms_db": -19.1,
+      "sha256": "666da5c7aedb012419f3a0bea2f4b20cdd9917791bed16fb089fb290c5f2754f"
+    },
+    {
+      "character": "granny",
+      "event": "angry",
+      "file": "granny-angry.wav",
+      "duration": 1.472,
+      "peak_db": -4.47,
+      "rms_db": -19.0,
+      "sha256": "37eee687ab17a16f28c57520a2f667f0deea222d940e57d65af9ff62289fe610"
+    },
+    {
+      "character": "granny",
+      "event": "pain",
+      "file": "granny-pain.wav",
+      "duration": 0.807,
+      "peak_db": -2.99,
+      "rms_db": -19.25,
+      "sha256": "59edda69ea4d8d71c655c09e9f55c9cecc48a5c328906cc53f901b8adffa575d"
+    },
+    {
+      "character": "granny",
+      "event": "sigh",
+      "file": "granny-sigh.wav",
+      "duration": 0.752,
+      "peak_db": -3.23,
+      "rms_db": -19.52,
+      "sha256": "15b3300e9ca3fa21e1a21193b74259370b764cd36b783a6600e92b18d213da77"
+    },
+    {
+      "character": "girl",
+      "event": "request",
+      "file": "girl-request.wav",
+      "duration": 0.789,
+      "peak_db": -7.57,
+      "rms_db": -19.04,
+      "sha256": "13dcfb11ed7cce393bed25aff415461838c44fbdf196f42945890b207c483f99"
+    },
+    {
+      "character": "girl",
+      "event": "happy",
+      "file": "girl-happy.wav",
+      "duration": 1.072,
+      "peak_db": -8.14,
+      "rms_db": -18.89,
+      "sha256": "65d8fa6adff5a57fc4451001e26ab46e2e892ef88b7654d85024770de8c2a1c8"
+    },
+    {
+      "character": "girl",
+      "event": "angry",
+      "file": "girl-angry.wav",
+      "duration": 0.757,
+      "peak_db": -8.05,
+      "rms_db": -19.06,
+      "sha256": "f15b7de295831800c86d1f759bf3661371848378d29180dbcf6d96cad2d7b240"
+    },
+    {
+      "character": "girl",
+      "event": "sigh",
+      "file": "girl-sigh.wav",
+      "duration": 0.679,
+      "peak_db": -4.85,
+      "rms_db": -19.23,
+      "sha256": "fc8debfd4eb8e6b80ce042444463f12a0afc902319001926efcb1bd77c4658fa"
+    },
+    {
+      "character": "man",
+      "event": "request",
+      "file": "man-request.wav",
+      "duration": 1.163,
+      "peak_db": -4.41,
+      "rms_db": -19.01,
+      "sha256": "e502262be4cea277a64d1a00295ee10362c77adb41ff4060847edebc7edf6dfa"
+    },
+    {
+      "character": "man",
+      "event": "happy",
+      "file": "man-happy.wav",
+      "duration": 0.854,
+      "peak_db": -5.15,
+      "rms_db": -19.11,
+      "sha256": "aa923c1399c38c49e5142c961ef8ba7e8f977b4fe7d1660c5d65f859b88cd223"
+    },
+    {
+      "character": "man",
+      "event": "angry",
+      "file": "man-angry.wav",
+      "duration": 1.348,
+      "peak_db": -5.45,
+      "rms_db": -18.89,
+      "sha256": "40d8dacebe023c11fa52cd5e6e51b5fa7033189f7b83fd10d5090347d4457959"
+    },
+    {
+      "character": "man",
+      "event": "pain",
+      "file": "man-pain.wav",
+      "duration": 0.594,
+      "peak_db": -5.56,
+      "rms_db": -19.36,
+      "sha256": "2286d9c335b01637bcda569aafdf2d18ac9bdcc388d4954b21e15f63bc76002d"
+    },
+    {
+      "character": "man",
+      "event": "sigh",
+      "file": "man-sigh.wav",
+      "duration": 0.752,
+      "peak_db": -7.14,
+      "rms_db": -19.09,
+      "sha256": "f92c5e48e354f5bcfc2df5c962807c84e55462cfc95b44cf764e87758f55e50d"
+    },
+    {
+      "character": "girl",
+      "event": "sneeze",
+      "file": "girl-sneeze.wav",
+      "duration": 0.881,
+      "peak_db": -4.12,
+      "rms_db": -19.31,
+      "sha256": "396570069d2907f8d4a43e9f139bcf1cf462b0a65f9ae7de750b4a4c14772c92"
+    }
+  ]
+}
