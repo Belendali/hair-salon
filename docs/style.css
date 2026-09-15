@@ -118,3 +118,17 @@ html[data-camera-mode="salon"] #selfie-ambient{filter:blur(15px) saturate(.65);o
 .checkout.loss .checkout-confetti{display:none}
 .checkout.win .checkout-confetti i{animation-duration:3.8s;animation-iteration-count:2}
 @keyframes checkout-confetti{0%{opacity:0;transform:translate(0,-20px) rotate(0)}10%{opacity:1}100%{opacity:0;transform:translate(var(--drift),100svh) rotate(470deg)}}
+
+/* start: the same camera-permission card as the other games, then a 3-2-1 */
+#game .welcome.panel{top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:24px;z-index:9;background:rgba(18,20,19,.78);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);animation:none}
+#game .welcome[hidden]{display:none}
+#game .welcome .gate{width:100%;max-width:330px;background:#fff;border-radius:22px;padding:26px 22px 16px;box-shadow:0 24px 60px rgba(0,0,0,.35)}
+#game .welcome .gate svg{display:block;margin:0 auto 8px}
+#game .welcome h1{font-size:26px;line-height:1.15;margin:4px 0 6px;color:#151515;text-shadow:none}
+#game .welcome p{margin:0 0 16px;font-size:15px;color:#55585b;text-shadow:none}
+#game .welcome .primary{width:100%;justify-content:center;background:#dcf579;color:#151515;border-radius:12px}
+#game .welcome .text-button{color:#55585b;text-shadow:none;text-decoration:underline;text-underline-offset:3px}
+.count{position:absolute;inset:0;z-index:8;display:flex;align-items:center;justify-content:center;pointer-events:none;font-size:120px;font-weight:800;color:#fff;text-shadow:0 4px 0 #151515,0 0 30px rgba(0,0,0,.35)}
+.count[hidden]{display:none}
+.count.pop{animation:countpop .35s ease-out}
+@keyframes countpop{from{transform:scale(1.4);opacity:0}to{transform:none;opacity:1}}

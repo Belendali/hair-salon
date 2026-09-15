@@ -296,7 +296,7 @@ async function enableCamera(){
     if(stream){stream.getTracks().forEach(t=>t.stop());stream=null;video.srcObject=null;ambient.pause();ambient.srcObject=null;}
     toast(error.name==='NotAllowedError'?'Camera is off. Allow it in your browser settings, or play without it.':'Camera unavailable here. Try Safari or Chrome, or play without a camera.',6500);
     logEvent('camera_unavailable',{reason:error.name||'unavailable'});return false;
-  }finally{cameraPending=false;$('camera-toggle').disabled=false;$('start-camera').disabled=false;$('start-camera').firstChild.textContent='Play with selfie ';}
+  }finally{cameraPending=false;$('camera-toggle').disabled=false;$('start-camera').disabled=false;$('start-camera').firstChild.textContent='Open camera';}
 }
 function disableCamera(){filterFaulted=false;tracker?.close();tracker=null;$('filter-retry').hidden=true;cameraGeneration++;const old=stream;stream=null;if(old)old.getTracks().forEach(t=>t.stop());video.pause();video.srcObject=null;ambient.pause();ambient.srcObject=null;video.classList.remove('active');game.classList.remove('camera-active');$('camera-toggle').classList.remove('on');$('camera-toggle').setAttribute('aria-label','Turn on selfie camera');landmarks=null;smoothed=null;cameraReadyState=false;workerReady=false;frameBusy=false;worker?.terminate();worker=null;clearTimeout(filterDeadline);ctx.clearRect(0,0,width,height);}
 function initTracking(){
@@ -354,13 +354,21 @@ function drawFilter(now){
 video.addEventListener('resize',()=>{smoothed=null;layoutSelfie();});
 async function startWithEntranceAudio(){
  unlockAudio();await Promise.race([soundtrack?.effectsReady??Promise.resolve(),new Promise(resolve=>setTimeout(resolve,700))]);
- if(state==='welcome')startDay();
+ if(state==='welcome')countIn(startDay);
+}
+// 3-2-1 before every shift, the same count-in as the other games
+let counting=false,beepCtx=null;
+function beep(){if(muted)return;try{beepCtx=beepCtx||new (window.AudioContext||window.webkitAudioContext)();const t=beepCtx.currentTime,o=beepCtx.createOscillator(),g=beepCtx.createGain();o.type='sine';o.frequency.value=660;g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(.18,t+.01);g.gain.exponentialRampToValueAtTime(.0001,t+.18);o.connect(g).connect(beepCtx.destination);o.start(t);o.stop(t+.2);}catch{}}
+function countIn(done){
+ if(counting)return;counting=true;$('welcome').hidden=true;$('result').hidden=true;game.classList.remove('shift-complete','total-landed');
+ const el=$('count');let n=3;const show=()=>{el.textContent=String(n);el.hidden=false;el.classList.remove('pop');void el.offsetWidth;el.classList.add('pop');beep();};
+ show();const iv=setInterval(()=>{n--;if(n>0)show();else{clearInterval(iv);el.hidden=true;counting=false;done();}},1000);
 }
 $('start-camera').addEventListener('click',async()=>{unlockAudio();const previousState=state;await enableCamera();if(state===previousState&&state==='welcome')await startWithEntranceAudio();});
 $('start-practice').addEventListener('click',startWithEntranceAudio);
 $('camera-toggle').addEventListener('click',async()=>{unlockAudio();if(stream)disableCamera();else await enableCamera();});
 $('sound-toggle').addEventListener('click',()=>{unlockAudio();muted=!muted;soundtrack?.setMuted(muted);$('sound-toggle').classList.toggle('muted',muted);$('sound-toggle').setAttribute('aria-label',muted?'Enable sound':'Mute sound');});
-$('replay').addEventListener('click',()=>{unlockAudio();startDay();});
+$('replay').addEventListener('click',()=>{unlockAudio();countIn(startDay);});
 $('pass-phone').addEventListener('click',()=>{$('result').hidden=true;target=null;actionTime=0;state='paused';pausedState='new';$('pause-title').textContent='Your turn.';$('pause-copy').textContent='Pass the phone. Face the camera.';$('resume').firstChild.textContent='I’m ready ';$('paused').hidden=false;landmarks=null;smoothed=null;});
 $('filter-retry').addEventListener('click',()=>{if(stream)initTracking();});
 $('take-break').addEventListener('click',()=>pauseGame());
