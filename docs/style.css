@@ -132,3 +132,6 @@ html[data-camera-mode="salon"] #selfie-ambient{filter:blur(15px) saturate(.65);o
 .count[hidden]{display:none}
 .count.pop{animation:countpop .35s ease-out}
 @keyframes countpop{from{transform:scale(1.4);opacity:0}to{transform:none;opacity:1}}
+
+/* no pause, camera or sound buttons during play */
+#game .top-actions{display:none}
