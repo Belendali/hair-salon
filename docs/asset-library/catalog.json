@@ -1,1226 +1,1231 @@
 {
-  "version": "Demo 34",
-  "kit": "01",
-  "models": [
+ "version": "Current game",
+ "kit": "01",
+ "models": [
+  {
+   "id": "granny",
+   "label": "Granny",
+   "use": "White-hair rescue",
+   "preview": "/hair-salon/asset-library/files/models/granny/preview.png",
+   "bones": 23,
+   "clips": [
+    "Idle",
+    "Walk",
+    "Sit",
+    "AdjustGlasses",
+    "Happy",
+    "Angry",
+    "Talk"
+   ],
+   "expressions": [
+    "Basis",
+    "Smile",
+    "Frown",
+    "CheekRaise",
+    "BrowAngry",
+    "JawOpen",
+    "Ouch"
+   ],
+   "downloads": [
     {
-      "id": "granny",
-      "label": "Granny",
-      "use": "White-hair rescue",
-      "preview": "/hair-salon/asset-library/files/models/granny/preview.png",
-      "bones": 23,
-      "clips": [
-        "Idle",
-        "Walk",
-        "Sit",
-        "AdjustGlasses",
-        "Happy",
-        "Angry",
-        "Talk"
-      ],
-      "expressions": [
-        "Basis",
-        "Smile",
-        "Frown",
-        "CheekRaise",
-        "BrowAngry",
-        "JawOpen",
-        "Ouch"
-      ],
-      "downloads": [
-        {
-          "url": "/hair-salon/asset-library/files/models/granny/granny_v3.blend",
-          "label": "BLEND",
-          "size": "14.6 MB",
-          "bytes": 15316376
-        },
-        {
-          "url": "/hair-salon/asset-library/files/models/granny/granny_v3.glb",
-          "label": "GLB",
-          "size": "7.2 MB",
-          "bytes": 7534760
-        },
-        {
-          "url": "/hair-salon/asset-library/files/packages/granny-blender.zip",
-          "label": "Download ZIP",
-          "size": "9.1 MB",
-          "bytes": 9583252
-        },
-        {
-          "url": "/hair-salon/asset-library/files/models/granny/model-report.json",
-          "label": "Rig report",
-          "size": "1 KB",
-          "bytes": 1117
-        }
-      ]
+     "url": "/hair-salon/asset-library/files/models/granny/granny_v3.blend",
+     "label": "BLEND",
+     "size": "14.6 MB",
+     "bytes": 15316376
     },
     {
-      "id": "girl",
-      "label": "The girl",
-      "use": "One-swipe bangs",
-      "preview": "/hair-salon/asset-library/files/models/girl/preview.png",
-      "bones": 30,
-      "clips": [
-        "Idle",
-        "Walk",
-        "Sit",
-        "LookAround",
-        "ScratchHead",
-        "Pay",
-        "Happy",
-        "Angry",
-        "Talk",
-        "Sneeze"
-      ],
-      "expressions": [
-        "Smile",
-        "Frown",
-        "Blink",
-        "Talk"
-      ],
-      "downloads": [
-        {
-          "url": "/hair-salon/asset-library/files/models/girl/girl_rigged.blend",
-          "label": "BLEND",
-          "size": "2.7 MB",
-          "bytes": 2820942
-        },
-        {
-          "url": "/hair-salon/asset-library/files/models/girl/girl_rigged.glb",
-          "label": "GLB",
-          "size": "6.1 MB",
-          "bytes": 6415072
-        },
-        {
-          "url": "/hair-salon/asset-library/files/packages/girl-blender.zip",
-          "label": "Download ZIP",
-          "size": "5.3 MB",
-          "bytes": 5536617
-        },
-        {
-          "url": "/hair-salon/asset-library/files/models/girl/model-report.json",
-          "label": "Rig report",
-          "size": "1 KB",
-          "bytes": 1327
-        }
-      ]
+     "url": "/hair-salon/asset-library/files/models/granny/granny_v3.glb",
+     "label": "GLB",
+     "size": "7.2 MB",
+     "bytes": 7534760
     },
     {
-      "id": "man",
-      "label": "The gentleman",
-      "use": "Four hair grafts",
-      "preview": "/hair-salon/asset-library/files/models/man/preview.png",
-      "bones": 30,
-      "clips": [
-        "Idle",
-        "Walk",
-        "Sit",
-        "LookAround",
-        "ScratchHead",
-        "Pay",
-        "Happy",
-        "Angry",
-        "Talk"
-      ],
-      "expressions": [
-        "Smile",
-        "Frown",
-        "Blink",
-        "Talk"
-      ],
-      "downloads": [
-        {
-          "url": "/hair-salon/asset-library/files/models/man/man_rigged.blend",
-          "label": "BLEND",
-          "size": "3.2 MB",
-          "bytes": 3308429
-        },
-        {
-          "url": "/hair-salon/asset-library/files/models/man/man_rigged.glb",
-          "label": "GLB",
-          "size": "7.6 MB",
-          "bytes": 7961632
-        },
-        {
-          "url": "/hair-salon/asset-library/files/packages/man-blender.zip",
-          "label": "Download ZIP",
-          "size": "6.4 MB",
-          "bytes": 6696316
-        },
-        {
-          "url": "/hair-salon/asset-library/files/models/man/model-report.json",
-          "label": "Rig report",
-          "size": "1 KB",
-          "bytes": 1313
-        }
-      ]
+     "url": "/hair-salon/asset-library/files/packages/granny-blender.zip",
+     "label": "Download ZIP",
+     "size": "9.1 MB",
+     "bytes": 9583252
+    },
+    {
+     "url": "/hair-salon/asset-library/files/models/granny/model-report.json",
+     "label": "Rig report",
+     "size": "1 KB",
+     "bytes": 1117
     }
-  ],
-  "audio": [
+   ]
+  },
+  {
+   "id": "girl",
+   "label": "The girl",
+   "use": "One-swipe bangs",
+   "preview": "/hair-salon/asset-library/files/models/girl/preview.png",
+   "bones": 30,
+   "clips": [
+    "Idle",
+    "Walk",
+    "Sit",
+    "LookAround",
+    "ScratchHead",
+    "Pay",
+    "Happy",
+    "Angry",
+    "Talk",
+    "Sneeze"
+   ],
+   "expressions": [
+    "Smile",
+    "Frown",
+    "Blink",
+    "Talk"
+   ],
+   "downloads": [
     {
-      "id": "granny-request",
-      "label": "Granny · Making a request",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/voices-v32/granny-request.wav",
-      "use": "After sitting, before the tool appears.",
-      "source": "Carried over · Demo 32",
-      "size": "110 KB",
-      "bytes": 112234,
-      "duration": 1.272
+     "url": "/hair-salon/asset-library/files/models/girl/girl_rigged.blend",
+     "label": "BLEND",
+     "size": "2.7 MB",
+     "bytes": 2820942
     },
     {
-      "id": "granny-happy",
-      "label": "Granny · Satisfied",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/voices-v32/granny-happy.wav",
-      "use": "Satisfied payment and departure.",
-      "source": "Carried over · Demo 32",
-      "size": "92 KB",
-      "bytes": 94594,
-      "duration": 1.072
+     "url": "/hair-salon/asset-library/files/models/girl/girl_rigged.glb",
+     "label": "GLB",
+     "size": "6.1 MB",
+     "bytes": 6415072
     },
     {
-      "id": "granny-angry",
-      "label": "Granny · Unhappy",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/audio-v33/granny-angry.wav",
-      "use": "Unhappy payment and departure.",
-      "source": "Uploaded · edited",
-      "size": "32 KB",
-      "bytes": 32300,
-      "duration": 0.366
+     "url": "/hair-salon/asset-library/files/packages/girl-blender.zip",
+     "label": "Download ZIP",
+     "size": "5.3 MB",
+     "bytes": 5536617
     },
     {
-      "id": "granny-pain",
-      "label": "Granny · Ouch + reaction",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/audio-v33/granny-pain.wav",
-      "use": "Wrong pluck / injection too deep.",
-      "source": "Uploaded · edited",
-      "size": "129 KB",
-      "bytes": 131688,
-      "duration": 1.493
-    },
-    {
-      "id": "granny-sigh",
-      "label": "Granny · Sigh",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/audio-v33/granny-sigh.wav",
-      "use": "Included in her ouch + sigh sequence; separate take also available.",
-      "source": "Uploaded · edited",
-      "size": "60 KB",
-      "bytes": 61784,
-      "duration": 0.7
-    },
-    {
-      "id": "girl-request",
-      "label": "The girl · Making a request",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/voices-v32/girl-request.wav",
-      "use": "After sitting, before the tool appears.",
-      "source": "Carried over · Demo 32",
-      "size": "68 KB",
-      "bytes": 69630,
-      "duration": 0.789
-    },
-    {
-      "id": "girl-happy",
-      "label": "The girl · Satisfied",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/voices-v32/girl-happy.wav",
-      "use": "Satisfied payment and departure.",
-      "source": "Carried over · Demo 32",
-      "size": "92 KB",
-      "bytes": 94594,
-      "duration": 1.072
-    },
-    {
-      "id": "girl-angry",
-      "label": "The girl · Unhappy",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/audio-v33/girl-angry.wav",
-      "use": "Unhappy payment and departure.",
-      "source": "Uploaded · edited",
-      "size": "34 KB",
-      "bytes": 34604,
-      "duration": 0.392
-    },
-    {
-      "id": "girl-sigh",
-      "label": "The girl · Sigh",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/audio-v33/girl-sigh.wav",
-      "use": "An uneven or incomplete haircut.",
-      "source": "Uploaded · edited",
-      "size": "109 KB",
-      "bytes": 111176,
-      "duration": 1.26
-    },
-    {
-      "id": "girl-sneeze",
-      "label": "The girl · Sneeze",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/audio-v33/girl-sneeze.wav",
-      "use": "Once per sneeze cycle; synced to the movement.",
-      "source": "Uploaded · edited",
-      "size": "91 KB",
-      "bytes": 93536,
-      "duration": 1.06
-    },
-    {
-      "id": "man-request",
-      "label": "The gentleman · Making a request",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/voices-v32/man-request.wav",
-      "use": "After sitting, before the tool appears.",
-      "source": "Carried over · Demo 32",
-      "size": "100 KB",
-      "bytes": 102602,
-      "duration": 1.163
-    },
-    {
-      "id": "man-happy",
-      "label": "The gentleman · Satisfied",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/audio-v33/man-happy.wav",
-      "use": "Satisfied payment and departure.",
-      "source": "Uploaded · edited",
-      "size": "86 KB",
-      "bytes": 87596,
-      "duration": 0.993
-    },
-    {
-      "id": "man-angry",
-      "label": "The gentleman · Unhappy",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/audio-v33/man-angry.wav",
-      "use": "Unhappy payment and departure.",
-      "source": "Uploaded · edited",
-      "size": "115 KB",
-      "bytes": 117548,
-      "duration": 1.332
-    },
-    {
-      "id": "man-pain",
-      "label": "The gentleman · Ouch + reaction",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/audio-v33/man-pain.wav",
-      "use": "Wrong pluck / injection too deep.",
-      "source": "Uploaded · edited",
-      "size": "65 KB",
-      "bytes": 66860,
-      "duration": 0.758
-    },
-    {
-      "id": "man-sigh",
-      "label": "The gentleman · Sigh",
-      "group": "Client voices",
-      "url": "/hair-salon/assets/audio-v33/man-angry.wav",
-      "use": "Shallow / missed graft; reuses the gentleman’s unhappy take.",
-      "source": "Uploaded · edited",
-      "size": "115 KB",
-      "bytes": 117548,
-      "duration": 1.332
-    },
-    {
-      "id": "doorbell",
-      "label": "Doorbell",
-      "group": "Room & endings",
-      "url": "/hair-salon/assets/audio-v33/doorbell.wav",
-      "use": "A new client arrives.",
-      "source": "Uploaded · edited",
-      "size": "94 KB",
-      "bytes": 95784,
-      "duration": 1.085
-    },
-    {
-      "id": "door",
-      "label": "Door opens",
-      "group": "Room & endings",
-      "url": "/hair-salon/assets/audio-v33/door-open.wav",
-      "use": "0.18 s after the doorbell.",
-      "source": "Uploaded · edited",
-      "size": "63 KB",
-      "bytes": 64556,
-      "duration": 0.731
-    },
-    {
-      "id": "step",
-      "label": "Footstep",
-      "group": "Room & endings",
-      "url": "/hair-salon/assets/audio-v33/step.wav",
-      "use": "Each entrance and departure step.",
-      "source": "Uploaded · edited",
-      "size": "19 KB",
-      "bytes": 19006,
-      "duration": 0.215
-    },
-    {
-      "id": "success",
-      "label": "Successful ending",
-      "group": "Room & endings",
-      "url": "/hair-salon/assets/audio-v33/ending-great.wav",
-      "use": "All three clients leave happy, regardless of tips.",
-      "source": "Uploaded · edited",
-      "size": "163 KB",
-      "bytes": 166742,
-      "duration": 1.89
-    },
-    {
-      "id": "failure",
-      "label": "Failed ending",
-      "group": "Room & endings",
-      "url": "/hair-salon/assets/audio-v33/ending-bad.wav",
-      "use": "At least one client leaves unhappy.",
-      "source": "Uploaded · edited",
-      "size": "259 KB",
-      "bytes": 265526,
-      "duration": 3.01
-    },
-    {
-      "id": "music",
-      "label": "Background music",
-      "group": "Room & endings",
-      "url": "/hair-salon/assets/audio-v33/music.mp3",
-      "use": "64-second loop; lowered underneath character voices.",
-      "source": "Uploaded · edited",
-      "size": "1001 KB",
-      "bytes": 1024879,
-      "duration": 64.026
-    },
-    {
-      "id": "positive",
-      "label": "Correct action",
-      "use": "White hair, a good cut or successful graft.",
-      "url": "/hair-salon/asset-library/files/synth/positive.wav",
-      "duration": 0.28,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "24 KB",
-      "bytes": 24738
-    },
-    {
-      "id": "sit",
-      "label": "Sitting down",
-      "use": "Client settles into the chair.",
-      "url": "/hair-salon/asset-library/files/synth/sit.wav",
-      "duration": 0.235,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "20 KB",
-      "bytes": 20770
-    },
-    {
-      "id": "tweezer-close",
-      "label": "Tweezer click",
-      "use": "The two arms close around a hair.",
-      "url": "/hair-salon/asset-library/files/synth/tweezer-close.wav",
-      "duration": 0.15,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "13 KB",
-      "bytes": 13274
-    },
-    {
-      "id": "hair-tension",
-      "label": "Hair tension",
-      "use": "Hair stretches just before the pluck.",
-      "url": "/hair-salon/asset-library/files/synth/hair-tension.wav",
-      "duration": 0.255,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "22 KB",
-      "bytes": 22534
-    },
-    {
-      "id": "hair-pluck",
-      "label": "Hair pop",
-      "use": "The hair detaches; combines with a voice or reward.",
-      "url": "/hair-salon/asset-library/files/synth/hair-pluck.wav",
-      "duration": 0.205,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "18 KB",
-      "bytes": 18124
-    },
-    {
-      "id": "empty-miss",
-      "label": "Empty pluck",
-      "use": "Tweezers missed every hair.",
-      "url": "/hair-salon/asset-library/files/synth/empty-miss.wav",
-      "duration": 0.175,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "15 KB",
-      "bytes": 15478
-    },
-    {
-      "id": "scissor-snip",
-      "label": "Scissor snip",
-      "use": "Repeated while the scissors cut through bangs.",
-      "url": "/hair-salon/asset-library/files/synth/scissor-snip.wav",
-      "duration": 0.3,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "26 KB",
-      "bytes": 26504
-    },
-    {
-      "id": "graft-fire",
-      "label": "Graft launch",
-      "use": "Tap freezes the gauge and fires the tuft.",
-      "url": "/hair-salon/asset-library/files/synth/graft-fire.wav",
-      "duration": 0.16,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "14 KB",
-      "bytes": 14156
-    },
-    {
-      "id": "graft-hit",
-      "label": "Graft impact",
-      "use": "Low thump layered with the correct-action cue.",
-      "url": "/hair-salon/asset-library/files/synth/graft-hit.wav",
-      "duration": 0.265,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "23 KB",
-      "bytes": 23416
-    },
-    {
-      "id": "graft-shallow",
-      "label": "Too shallow",
-      "use": "The tuft springs away; layered with the man’s sigh.",
-      "url": "/hair-salon/asset-library/files/synth/graft-shallow.wav",
-      "duration": 0.285,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "25 KB",
-      "bytes": 25180
-    },
-    {
-      "id": "graft-deep",
-      "label": "Too deep",
-      "use": "A low thud; layered with the man’s pain voice.",
-      "url": "/hair-salon/asset-library/files/synth/graft-deep.wav",
-      "duration": 0.245,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "21 KB",
-      "bytes": 21652
-    },
-    {
-      "id": "cash",
-      "label": "Payment chime",
-      "use": "Client pays and the final total lands.",
-      "url": "/hair-salon/asset-library/files/synth/cash.wav",
-      "duration": 0.445,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "38 KB",
-      "bytes": 39292
-    },
-    {
-      "id": "tally",
-      "label": "Earnings count-up",
-      "use": "Eight short ascending ticks during checkout.",
-      "url": "/hair-salon/asset-library/files/synth/tally.wav",
-      "duration": 0.91,
-      "source": "Synth export",
-      "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
-      "group": "Procedural sound effects",
-      "size": "78 KB",
-      "bytes": 80306
+     "url": "/hair-salon/asset-library/files/models/girl/model-report.json",
+     "label": "Rig report",
+     "size": "1 KB",
+     "bytes": 1327
     }
-  ],
-  "extra": [
+   ]
+  },
+  {
+   "id": "man",
+   "label": "The gentleman",
+   "use": "Four hair grafts",
+   "preview": "/hair-salon/asset-library/files/models/man/preview.png",
+   "bones": 30,
+   "clips": [
+    "Idle",
+    "Walk",
+    "Sit",
+    "LookAround",
+    "ScratchHead",
+    "Pay",
+    "Happy",
+    "Angry",
+    "Talk"
+   ],
+   "expressions": [
+    "Smile",
+    "Frown",
+    "Blink",
+    "Talk"
+   ],
+   "downloads": [
     {
-      "id": "granny-ouch",
-      "label": "granny ouch",
-      "url": "/hair-salon/assets/audio-v33/granny-ouch.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "65 KB",
-      "bytes": 66860,
-      "duration": 0.758
+     "url": "/hair-salon/asset-library/files/models/man/man_rigged.blend",
+     "label": "BLEND",
+     "size": "3.2 MB",
+     "bytes": 3308429
+    },
+    {
+     "url": "/hair-salon/asset-library/files/models/man/man_rigged.glb",
+     "label": "GLB",
+     "size": "7.6 MB",
+     "bytes": 7961632
+    },
+    {
+     "url": "/hair-salon/asset-library/files/packages/man-blender.zip",
+     "label": "Download ZIP",
+     "size": "6.4 MB",
+     "bytes": 6696316
+    },
+    {
+     "url": "/hair-salon/asset-library/files/models/man/model-report.json",
+     "label": "Rig report",
+     "size": "1 KB",
+     "bytes": 1313
     }
-  ],
-  "legacy": [
-    {
-      "id": "angry-v6",
-      "label": "angry v6",
-      "url": "/hair-salon/assets/angry-v6.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "79 KB",
-      "bytes": 80608,
-      "duration": 2.517
-    },
-    {
-      "id": "client-chatter-v10",
-      "label": "client chatter v10",
-      "url": "/hair-salon/assets/client-chatter-v10.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "90 KB",
-      "bytes": 91772,
-      "duration": 1.04
-    },
-    {
-      "id": "client-sigh-v10",
-      "label": "client sigh v10",
-      "url": "/hair-salon/assets/client-sigh-v10.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "60 KB",
-      "bytes": 61784,
-      "duration": 0.7
-    },
-    {
-      "id": "granny-grumble-v9",
-      "label": "granny grumble v9",
-      "url": "/hair-salon/assets/granny-grumble-v9.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "155 KB",
-      "bytes": 158804,
-      "duration": 1.8
-    },
-    {
-      "id": "granny-ouch-v10",
-      "label": "granny ouch v10",
-      "url": "/hair-salon/assets/granny-ouch-v10.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "134 KB",
-      "bytes": 136754,
-      "duration": 1.55
-    },
-    {
-      "id": "granny-pleased-v9",
-      "label": "granny pleased v9",
-      "url": "/hair-salon/assets/granny-pleased-v9.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "89 KB",
-      "bytes": 90890,
-      "duration": 1.03
-    },
-    {
-      "id": "oh-no-v6",
-      "label": "oh no v6",
-      "url": "/hair-salon/assets/oh-no-v6.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "34 KB",
-      "bytes": 34356,
-      "duration": 0.777
-    },
-    {
-      "id": "salon-bounce-v9",
-      "label": "salon bounce v9",
-      "url": "/hair-salon/assets/salon-bounce-v9.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "2.1 MB",
-      "bytes": 2171120,
-      "duration": 12.308
-    },
-    {
-      "id": "thanks-v6",
-      "label": "thanks v6",
-      "url": "/hair-salon/assets/thanks-v6.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "57 KB",
-      "bytes": 57994,
-      "duration": 1.81
-    },
-    {
-      "id": "girl-angry",
-      "label": "girl angry",
-      "url": "/hair-salon/assets/voices-v32/girl-angry.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "65 KB",
-      "bytes": 66830,
-      "duration": 0.757
-    },
-    {
-      "id": "girl-sigh",
-      "label": "girl sigh",
-      "url": "/hair-salon/assets/voices-v32/girl-sigh.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "58 KB",
-      "bytes": 59900,
-      "duration": 0.679
-    },
-    {
-      "id": "girl-sneeze",
-      "label": "girl sneeze",
-      "url": "/hair-salon/assets/voices-v32/girl-sneeze.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "76 KB",
-      "bytes": 77786,
-      "duration": 0.881
-    },
-    {
-      "id": "granny-angry",
-      "label": "granny angry",
-      "url": "/hair-salon/assets/voices-v32/granny-angry.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "127 KB",
-      "bytes": 129874,
-      "duration": 1.472
-    },
-    {
-      "id": "granny-pain",
-      "label": "granny pain",
-      "url": "/hair-salon/assets/voices-v32/granny-pain.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "70 KB",
-      "bytes": 71242,
-      "duration": 0.807
-    },
-    {
-      "id": "granny-sigh",
-      "label": "granny sigh",
-      "url": "/hair-salon/assets/voices-v32/granny-sigh.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "65 KB",
-      "bytes": 66370,
-      "duration": 0.752
-    },
-    {
-      "id": "man-angry",
-      "label": "man angry",
-      "url": "/hair-salon/assets/voices-v32/man-angry.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "116 KB",
-      "bytes": 118958,
-      "duration": 1.348
-    },
-    {
-      "id": "man-happy",
-      "label": "man happy",
-      "url": "/hair-salon/assets/voices-v32/man-happy.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "74 KB",
-      "bytes": 75400,
-      "duration": 0.854
-    },
-    {
-      "id": "man-pain",
-      "label": "man pain",
-      "url": "/hair-salon/assets/voices-v32/man-pain.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "51 KB",
-      "bytes": 52414,
-      "duration": 0.594
-    },
-    {
-      "id": "man-sigh",
-      "label": "man sigh",
-      "url": "/hair-salon/assets/voices-v32/man-sigh.wav",
-      "use": "Unused alternate take; not triggered by the current game.",
-      "source": "Earlier version",
-      "size": "65 KB",
-      "bytes": 66370,
-      "duration": 0.752
-    }
-  ],
-  "originals": [
-    {
-      "label": "achoo",
-      "url": "/hair-salon/asset-library/files/original-audio/achoo.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "236 KB",
-      "bytes": 241415,
-      "duration": 6.008
-    },
-    {
-      "label": "background music haor",
-      "url": "/hair-salon/asset-library/files/original-audio/background-music-haor.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "3.4 MB",
-      "bytes": 3582378,
-      "duration": 223.895
-    },
-    {
-      "label": "dingdong",
-      "url": "/hair-salon/asset-library/files/original-audio/dingdong.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "45 KB",
-      "bytes": 46019,
-      "duration": 1.123
-    },
-    {
-      "label": "door open",
-      "url": "/hair-salon/asset-library/files/original-audio/door-open.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "11 KB",
-      "bytes": 11752,
-      "duration": 0.731
-    },
-    {
-      "label": "ending bad",
-      "url": "/hair-salon/asset-library/files/original-audio/ending-bad.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "89 KB",
-      "bytes": 90950,
-      "duration": 3.762
-    },
-    {
-      "label": "ending great",
-      "url": "/hair-salon/asset-library/files/original-audio/ending-great.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "12 KB",
-      "bytes": 12504,
-      "duration": 2.456
-    },
-    {
-      "label": "girl no",
-      "url": "/hair-salon/asset-library/files/original-audio/girl-no.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "6 KB",
-      "bytes": 6319,
-      "duration": 0.392
-    },
-    {
-      "label": "girl sigh",
-      "url": "/hair-salon/asset-library/files/original-audio/girl-sigh.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "21 KB",
-      "bytes": 21359,
-      "duration": 2.638
-    },
-    {
-      "label": "grandma no",
-      "url": "/hair-salon/asset-library/files/original-audio/grandma-no.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "6 KB",
-      "bytes": 5901,
-      "duration": 0.366
-    },
-    {
-      "label": "grandma ouch",
-      "url": "/hair-salon/asset-library/files/original-audio/grandma-ouch.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "12 KB",
-      "bytes": 12170,
-      "duration": 0.757
-    },
-    {
-      "label": "grandma sigh",
-      "url": "/hair-salon/asset-library/files/original-audio/grandma-sigh.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "85 KB",
-      "bytes": 86842,
-      "duration": 3.344
-    },
-    {
-      "label": "man happy",
-      "url": "/hair-salon/asset-library/files/original-audio/man-happy.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "16 KB",
-      "bytes": 15932,
-      "duration": 0.993
-    },
-    {
-      "label": "man not happy",
-      "url": "/hair-salon/asset-library/files/original-audio/man-not-happy.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "21 KB",
-      "bytes": 21365,
-      "duration": 1.332
-    },
-    {
-      "label": "man ouch",
-      "url": "/hair-salon/asset-library/files/original-audio/man-ouch.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "20 KB",
-      "bytes": 20104,
-      "duration": 0.764
-    },
-    {
-      "label": "walk",
-      "url": "/hair-salon/asset-library/files/original-audio/walk.mp3",
-      "source": "Original upload",
-      "use": "Untrimmed source for editing.",
-      "size": "27 KB",
-      "bytes": 27635,
-      "duration": 1.724
-    }
-  ],
-  "images": [
-    {
-      "label": "Barber cap",
-      "url": "/hair-salon/assets/barber-cap-v11.png",
-      "use": "Current face-tracked cap. Transparent PNG.",
-      "size": "1.7 MB",
-      "bytes": 1733543,
-      "dimensions": "2172 × 724"
-    },
-    {
-      "label": "Barber moustache",
-      "url": "/hair-salon/assets/barber-moustache-v11.png",
-      "use": "Current face-tracked moustache. Transparent PNG.",
-      "size": "1.1 MB",
-      "bytes": 1121948,
-      "dimensions": "1536 × 1024"
-    },
-    {
-      "id": "gesture-hand",
-      "label": "Gesture hand",
-      "url": "/hair-salon/asset-library/files/ui/gesture-hand.svg",
-      "use": "Original editable SVG extracted from Demo 34.",
-      "size": "0 KB",
-      "bytes": 455
-    },
-    {
-      "id": "camera",
-      "label": "Camera control",
-      "url": "/hair-salon/asset-library/files/ui/camera.svg",
-      "use": "Original editable SVG extracted from Demo 34.",
-      "size": "0 KB",
-      "bytes": 222
-    },
-    {
-      "id": "sound",
-      "label": "Sound control",
-      "url": "/hair-salon/asset-library/files/ui/sound.svg",
-      "use": "Original editable SVG extracted from Demo 34.",
-      "size": "0 KB",
-      "bytes": 305
-    }
-  ],
-  "materials": [
-    {
-      "id": "granny-fabric-1",
-      "role": "granny",
-      "width": 256,
-      "height": 256,
-      "repeat": [
-        5,
-        7
-      ],
-      "tint": "ffffff",
-      "roughness": 0.92,
-      "url": "/hair-salon/asset-library/files/textures/granny-fabric-1.png",
-      "label": "Granny Fabric 1",
-      "use": "256 × 256 · UV repeat 5 × 7 · material tint #ffffff",
-      "size": "58 KB",
-      "bytes": 59191
-    },
-    {
-      "id": "granny-fabric-2",
-      "role": "granny",
-      "width": 256,
-      "height": 256,
-      "repeat": [
-        2,
-        2
-      ],
-      "tint": "ffffff",
-      "roughness": 0.92,
-      "url": "/hair-salon/asset-library/files/textures/granny-fabric-2.png",
-      "label": "Granny Fabric 2",
-      "use": "256 × 256 · UV repeat 2 × 2 · material tint #ffffff",
-      "size": "62 KB",
-      "bytes": 63797
-    },
-    {
-      "id": "girl-fabric-1",
-      "role": "girl",
-      "width": 256,
-      "height": 256,
-      "repeat": [
-        5,
-        6
-      ],
-      "tint": "ad8296",
-      "roughness": 0.92,
-      "url": "/hair-salon/asset-library/files/textures/girl-fabric-1.png",
-      "label": "Girl Fabric 1",
-      "use": "256 × 256 · UV repeat 5 × 6 · material tint #ad8296",
-      "size": "58 KB",
-      "bytes": 59191
-    },
-    {
-      "id": "man-fabric-1",
-      "role": "man",
-      "width": 128,
-      "height": 128,
-      "repeat": [
-        3,
-        5
-      ],
-      "tint": "ffffff",
-      "roughness": 0.88,
-      "url": "/hair-salon/asset-library/files/textures/man-fabric-1.png",
-      "label": "Man Fabric 1",
-      "use": "128 × 128 · UV repeat 3 × 5 · material tint #ffffff",
-      "size": "19 KB",
-      "bytes": 19689
-    },
-    {
-      "id": "man-fabric-2",
-      "role": "man",
-      "width": 128,
-      "height": 128,
-      "repeat": [
-        3,
-        5
-      ],
-      "tint": "ffffff",
-      "roughness": 0.91,
-      "url": "/hair-salon/asset-library/files/textures/man-fabric-2.png",
-      "label": "Man Fabric 2",
-      "use": "128 × 128 · UV repeat 3 × 5 · material tint #ffffff",
-      "size": "15 KB",
-      "bytes": 14909
-    }
-  ],
-  "props": [
-    {
-      "id": "tweezers",
-      "use": "Metal arms, grips and tips. Animated by game code.",
-      "glb": {
-        "url": "/hair-salon/asset-library/files/props/tweezers.glb",
-        "label": "GLB",
-        "size": "262 KB",
-        "bytes": 268248
-      },
-      "url": "/hair-salon/asset-library/files/props/tweezers.json",
-      "label": "Tweezers",
-      "size": "6 KB",
-      "bytes": 6467
-    },
-    {
-      "id": "scissors",
-      "use": "Separate blade pivots for the one-swipe cut.",
-      "glb": {
-        "url": "/hair-salon/asset-library/files/props/scissors.glb",
-        "label": "GLB",
-        "size": "164 KB",
-        "bytes": 167608
-      },
-      "url": "/hair-salon/asset-library/files/props/scissors.json",
-      "label": "Scissors",
-      "size": "6 KB",
-      "bytes": 6122
-    },
-    {
-      "id": "syringe",
-      "use": "Glass barrel, plunger and embedded timing gauge.",
-      "glb": {
-        "url": "/hair-salon/asset-library/files/props/syringe.glb",
-        "label": "GLB",
-        "size": "137 KB",
-        "bytes": 140168
-      },
-      "url": "/hair-salon/asset-library/files/props/syringe.json",
-      "label": "Planting syringe",
-      "size": "12 KB",
-      "bytes": 12303
-    },
-    {
-      "id": "graft-tuft",
-      "use": "A planted clump; four placement sites on the crown.",
-      "glb": {
-        "url": "/hair-salon/asset-library/files/props/graft-tuft.glb",
-        "label": "GLB",
-        "size": "62 KB",
-        "bytes": 63228
-      },
-      "url": "/hair-salon/asset-library/files/props/graft-tuft.json",
-      "label": "Hair tuft",
-      "size": "198 KB",
-      "bytes": 202851
-    },
-    {
-      "id": "chair",
-      "use": "Charcoal upholstery, chrome arms and headrest.",
-      "glb": {
-        "url": "/hair-salon/asset-library/files/props/chair.glb",
-        "label": "GLB",
-        "size": "510 KB",
-        "bytes": 522400
-      },
-      "url": "/hair-salon/asset-library/files/props/chair.json",
-      "label": "Barber chair",
-      "size": "25 KB",
-      "bytes": 25743
-    },
-    {
-      "id": "furnishings",
-      "use": "Original grouped scene; follows the client framing.",
-      "glb": {
-        "url": "/hair-salon/asset-library/files/props/furnishings.glb",
-        "label": "GLB",
-        "size": "1.5 MB",
-        "bytes": 1617916
-      },
-      "url": "/hair-salon/asset-library/files/props/furnishings.json",
-      "label": "Chair & workstations",
-      "size": "81 KB",
-      "bytes": 82957
-    },
-    {
-      "id": "tip-jar",
-      "use": "Glass and note meshes. Banknote artwork comes from payment.mjs.",
-      "glb": {
-        "url": "/hair-salon/asset-library/files/props/tip-jar.glb",
-        "label": "GLB",
-        "size": "504 KB",
-        "bytes": 515984
-      },
-      "url": "/hair-salon/asset-library/files/props/tip-jar.json",
-      "label": "Tip jar",
-      "size": "21 KB",
-      "bytes": 21884
-    },
-    {
-      "id": "granny-flames",
-      "use": "Granny / gentleman negative-result effect.",
-      "glb": {
-        "url": "/hair-salon/asset-library/files/props/granny-flames.glb",
-        "label": "GLB",
-        "size": "37 KB",
-        "bytes": 38104
-      },
-      "url": "/hair-salon/asset-library/files/props/granny-flames.json",
-      "label": "Anger flames",
-      "size": "4 KB",
-      "bytes": 4004
-    },
-    {
-      "id": "girl-tears",
-      "use": "The girl’s negative-result effect.",
-      "glb": {
-        "url": "/hair-salon/asset-library/files/props/girl-tears.glb",
-        "label": "GLB",
-        "size": "507 KB",
-        "bytes": 519308
-      },
-      "url": "/hair-salon/asset-library/files/props/girl-tears.json",
-      "label": "Streaming tears",
-      "size": "3 KB",
-      "bytes": 3032
-    }
-  ],
-  "states": [
-    [
-      "Arrival",
-      "Walks in sideways, sits and talks.",
-      "walk / pose / request"
-    ],
-    [
-      "Service",
-      "Head turns, scratches and glasses adjustment; the girl sneezes.",
-      "pose(motionTime)"
-    ],
-    [
-      "Correct action",
-      "Brief smile and spring reaction.",
-      "expression(win) + positive"
-    ],
-    [
-      "Wrong action",
-      "Ouch, frustration or disappointment.",
-      "expression(lose) + pain / sigh"
-    ],
-    [
-      "Payment & departure",
-      "Stands, pays and walks out in the recorded mood.",
-      "ending + cash + character voice"
-    ],
-    [
-      "Happy results",
-      "Satisfied pose and bouncing arms. Three happy clients trigger confetti.",
-      "clientResults[].ending = happy"
-    ],
-    [
-      "Unhappy results",
-      "Angry pose with flames, or streaming tears. Each client keeps their own mood.",
-      "clientResults[].ending = angry"
-    ]
-  ],
-  "packages": {
-    "source": {
-      "url": "/hair-salon/asset-library/files/packages/demo-34-game-source.zip",
-      "label": "Download ZIP",
-      "size": "14.6 MB",
-      "bytes": 15257482
-    },
-    "audio": {
-      "url": "/hair-salon/asset-library/files/packages/current-audio.zip",
-      "label": "Download ZIP",
-      "size": "2.5 MB",
-      "bytes": 2611138
-    },
-    "originals": {
-      "url": "/hair-salon/asset-library/files/packages/original-audio.zip",
-      "label": "Download ZIP",
-      "size": "3.7 MB",
-      "bytes": 3881916
-    },
-    "archive": {
-      "url": "/hair-salon/asset-library/files/packages/earlier-assets.zip",
-      "label": "Download ZIP",
-      "size": "4.0 MB",
-      "bytes": 4231171
-    },
-    "props": {
-      "url": "/hair-salon/asset-library/files/packages/props-and-effects.zip",
-      "label": "Download ZIP",
-      "size": "759 KB",
-      "bytes": 776852
-    },
-    "ui": {
-      "url": "/hair-salon/asset-library/files/packages/ui-and-filters.zip",
-      "label": "Download ZIP",
-      "size": "2.9 MB",
-      "bytes": 3032564
-    },
-    "materials": {
-      "url": "/hair-salon/asset-library/files/packages/material-maps.zip",
-      "label": "Download ZIP",
-      "size": "214 KB",
-      "bytes": 218916
-    }
+   ]
   }
+ ],
+ "audio": [
+  {
+   "id": "granny-request",
+   "label": "Granny · Making a request",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/voices-v32/granny-request.wav",
+   "use": "After sitting, before the tool appears.",
+   "source": "Carried over · Demo 32",
+   "size": "110 KB",
+   "bytes": 112234,
+   "duration": 1.272
+  },
+  {
+   "id": "granny-happy",
+   "label": "Granny · Satisfied",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/voices-v32/granny-happy.wav",
+   "use": "Satisfied payment and departure.",
+   "source": "Carried over · Demo 32",
+   "size": "92 KB",
+   "bytes": 94594,
+   "duration": 1.072
+  },
+  {
+   "id": "granny-angry",
+   "label": "Granny · Unhappy",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/audio-v33/granny-angry.wav",
+   "use": "Unhappy payment and departure.",
+   "source": "Uploaded · edited",
+   "size": "32 KB",
+   "bytes": 32300,
+   "duration": 0.366
+  },
+  {
+   "id": "granny-pain",
+   "label": "Granny · Ouch + reaction",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/audio-v33/granny-pain.wav",
+   "use": "Wrong pluck / injection too deep.",
+   "source": "Uploaded · edited",
+   "size": "129 KB",
+   "bytes": 131688,
+   "duration": 1.493
+  },
+  {
+   "id": "granny-sigh",
+   "label": "Granny · Sigh",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/audio-v33/granny-sigh.wav",
+   "use": "Included in her ouch + sigh sequence; separate take also available.",
+   "source": "Uploaded · edited",
+   "size": "60 KB",
+   "bytes": 61784,
+   "duration": 0.7
+  },
+  {
+   "id": "girl-request",
+   "label": "The girl · Making a request",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/voices-v32/girl-request.wav",
+   "use": "After sitting, before the tool appears.",
+   "source": "Carried over · Demo 32",
+   "size": "68 KB",
+   "bytes": 69630,
+   "duration": 0.789
+  },
+  {
+   "id": "girl-happy",
+   "label": "The girl · Satisfied",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/voices-v32/girl-happy.wav",
+   "use": "Satisfied payment and departure.",
+   "source": "Carried over · Demo 32",
+   "size": "92 KB",
+   "bytes": 94594,
+   "duration": 1.072
+  },
+  {
+   "id": "girl-angry",
+   "label": "The girl · Unhappy",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/audio-v33/girl-angry.wav",
+   "use": "Unhappy payment and departure.",
+   "source": "Uploaded · edited",
+   "size": "34 KB",
+   "bytes": 34604,
+   "duration": 0.392
+  },
+  {
+   "id": "girl-sigh",
+   "label": "The girl · Sigh",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/audio-v33/girl-sigh.wav",
+   "use": "An uneven or incomplete haircut.",
+   "source": "Uploaded · edited",
+   "size": "109 KB",
+   "bytes": 111176,
+   "duration": 1.26
+  },
+  {
+   "id": "girl-sneeze",
+   "label": "The girl · Sneeze",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/audio-v33/girl-sneeze.wav",
+   "use": "Once per sneeze cycle; synced to the movement.",
+   "source": "Uploaded · edited",
+   "size": "91 KB",
+   "bytes": 93536,
+   "duration": 1.06
+  },
+  {
+   "id": "man-request",
+   "label": "The gentleman · Making a request",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/voices-v32/man-request.wav",
+   "use": "After sitting, before the tool appears.",
+   "source": "Carried over · Demo 32",
+   "size": "100 KB",
+   "bytes": 102602,
+   "duration": 1.163
+  },
+  {
+   "id": "man-happy",
+   "label": "The gentleman · Satisfied",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/audio-v33/man-happy.wav",
+   "use": "Satisfied payment and departure.",
+   "source": "Uploaded · edited",
+   "size": "86 KB",
+   "bytes": 87596,
+   "duration": 0.993
+  },
+  {
+   "id": "man-angry",
+   "label": "The gentleman · Unhappy",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/audio-v33/man-angry.wav",
+   "use": "Unhappy payment and departure.",
+   "source": "Uploaded · edited",
+   "size": "115 KB",
+   "bytes": 117548,
+   "duration": 1.332
+  },
+  {
+   "id": "man-pain",
+   "label": "The gentleman · Ouch + reaction",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/audio-v33/man-pain.wav",
+   "use": "Wrong pluck / injection too deep.",
+   "source": "Uploaded · edited",
+   "size": "65 KB",
+   "bytes": 66860,
+   "duration": 0.758
+  },
+  {
+   "id": "man-sigh",
+   "label": "The gentleman · Sigh",
+   "group": "Client voices",
+   "url": "/hair-salon/assets/audio-v33/man-angry.wav",
+   "use": "Shallow / missed graft; reuses the gentleman’s unhappy take.",
+   "source": "Uploaded · edited",
+   "size": "115 KB",
+   "bytes": 117548,
+   "duration": 1.332
+  },
+  {
+   "id": "doorbell",
+   "label": "Doorbell",
+   "group": "Room & endings",
+   "url": "/hair-salon/assets/audio-v33/doorbell.wav",
+   "use": "Right after the 3-2-1. The client walks in on it.",
+   "source": "Uploaded · edited",
+   "size": "94 KB",
+   "bytes": 95784,
+   "duration": 1.085
+  },
+  {
+   "id": "door",
+   "label": "Door opens",
+   "group": "Room & endings",
+   "url": "/hair-salon/assets/audio-v33/door-open.wav",
+   "use": "0.18 s after the doorbell.",
+   "source": "Uploaded · edited",
+   "size": "63 KB",
+   "bytes": 64556,
+   "duration": 0.731
+  },
+  {
+   "id": "step",
+   "label": "Footstep",
+   "group": "Room & endings",
+   "url": "/hair-salon/assets/audio-v33/step.wav",
+   "use": "Each entrance and departure step.",
+   "source": "Uploaded · edited",
+   "size": "19 KB",
+   "bytes": 19006,
+   "duration": 0.215
+  },
+  {
+   "id": "success",
+   "label": "Successful ending",
+   "group": "Room & endings",
+   "url": "/hair-salon/assets/audio-v33/ending-great.wav",
+   "use": "All three clients leave happy, regardless of tips.",
+   "source": "Uploaded · edited",
+   "size": "163 KB",
+   "bytes": 166742,
+   "duration": 1.89
+  },
+  {
+   "id": "failure",
+   "label": "Failed ending",
+   "group": "Room & endings",
+   "url": "/hair-salon/assets/audio-v33/ending-bad.wav",
+   "use": "At least one client leaves unhappy.",
+   "source": "Uploaded · edited",
+   "size": "259 KB",
+   "bytes": 265526,
+   "duration": 3.01
+  },
+  {
+   "id": "music",
+   "label": "Background music",
+   "group": "Room & endings",
+   "url": "/hair-salon/assets/audio-v33/music.mp3",
+   "use": "64-second loop; lowered underneath character voices.",
+   "source": "Uploaded · edited",
+   "size": "1001 KB",
+   "bytes": 1024879,
+   "duration": 64.026
+  },
+  {
+   "id": "count-beep",
+   "label": "Count-in beep",
+   "group": "Procedural sound effects",
+   "url": "/hair-salon/asset-library/files/synth/count-beep.wav",
+   "use": "Each of 3, 2, 1 before a shift and on replay.",
+   "source": "Synth export",
+   "size": "17 KB",
+   "bytes": 17684,
+   "duration": 0.2
+  },
+  {
+   "id": "positive",
+   "label": "Correct action",
+   "use": "White hair, a good cut or successful graft.",
+   "url": "/hair-salon/asset-library/files/synth/positive.wav",
+   "duration": 0.28,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "24 KB",
+   "bytes": 24738
+  },
+  {
+   "id": "sit",
+   "label": "Sitting down",
+   "use": "Client settles into the chair.",
+   "url": "/hair-salon/asset-library/files/synth/sit.wav",
+   "duration": 0.235,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "20 KB",
+   "bytes": 20770
+  },
+  {
+   "id": "tweezer-close",
+   "label": "Tweezer click",
+   "use": "The two arms close around a hair.",
+   "url": "/hair-salon/asset-library/files/synth/tweezer-close.wav",
+   "duration": 0.15,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "13 KB",
+   "bytes": 13274
+  },
+  {
+   "id": "hair-tension",
+   "label": "Hair tension",
+   "use": "Hair stretches just before the pluck.",
+   "url": "/hair-salon/asset-library/files/synth/hair-tension.wav",
+   "duration": 0.255,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "22 KB",
+   "bytes": 22534
+  },
+  {
+   "id": "hair-pluck",
+   "label": "Hair pop",
+   "use": "The hair detaches; combines with a voice or reward.",
+   "url": "/hair-salon/asset-library/files/synth/hair-pluck.wav",
+   "duration": 0.205,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "18 KB",
+   "bytes": 18124
+  },
+  {
+   "id": "empty-miss",
+   "label": "Empty pluck",
+   "use": "Tweezers missed every hair.",
+   "url": "/hair-salon/asset-library/files/synth/empty-miss.wav",
+   "duration": 0.175,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "15 KB",
+   "bytes": 15478
+  },
+  {
+   "id": "scissor-snip",
+   "label": "Scissor snip",
+   "use": "Repeated while the scissors cut through bangs.",
+   "url": "/hair-salon/asset-library/files/synth/scissor-snip.wav",
+   "duration": 0.3,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "26 KB",
+   "bytes": 26504
+  },
+  {
+   "id": "graft-fire",
+   "label": "Graft launch",
+   "use": "Tap freezes the gauge and fires the tuft.",
+   "url": "/hair-salon/asset-library/files/synth/graft-fire.wav",
+   "duration": 0.16,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "14 KB",
+   "bytes": 14156
+  },
+  {
+   "id": "graft-hit",
+   "label": "Graft impact",
+   "use": "Low thump layered with the correct-action cue.",
+   "url": "/hair-salon/asset-library/files/synth/graft-hit.wav",
+   "duration": 0.265,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "23 KB",
+   "bytes": 23416
+  },
+  {
+   "id": "graft-shallow",
+   "label": "Too shallow",
+   "use": "The tuft springs away; layered with the man’s sigh.",
+   "url": "/hair-salon/asset-library/files/synth/graft-shallow.wav",
+   "duration": 0.285,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "25 KB",
+   "bytes": 25180
+  },
+  {
+   "id": "graft-deep",
+   "label": "Too deep",
+   "use": "A low thud; layered with the man’s pain voice.",
+   "url": "/hair-salon/asset-library/files/synth/graft-deep.wav",
+   "duration": 0.245,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "21 KB",
+   "bytes": 21652
+  },
+  {
+   "id": "cash",
+   "label": "Payment chime",
+   "use": "Client pays and the final total lands.",
+   "url": "/hair-salon/asset-library/files/synth/cash.wav",
+   "duration": 0.445,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "38 KB",
+   "bytes": 39292
+  },
+  {
+   "id": "tally",
+   "label": "Earnings count-up",
+   "use": "Eight short ascending ticks during checkout.",
+   "url": "/hair-salon/asset-library/files/synth/tally.wav",
+   "duration": 0.91,
+   "source": "Synth export",
+   "note": "Offline audition; browser oscillators and random noise may sound slightly different. Edit game.js / soundtrack.mjs for the live cue.",
+   "group": "Procedural sound effects",
+   "size": "78 KB",
+   "bytes": 80306
+  }
+ ],
+ "extra": [
+  {
+   "id": "granny-ouch",
+   "label": "granny ouch",
+   "url": "/hair-salon/assets/audio-v33/granny-ouch.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "65 KB",
+   "bytes": 66860,
+   "duration": 0.758
+  }
+ ],
+ "legacy": [
+  {
+   "id": "angry-v6",
+   "label": "angry v6",
+   "url": "/hair-salon/assets/angry-v6.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "79 KB",
+   "bytes": 80608,
+   "duration": 2.517
+  },
+  {
+   "id": "client-chatter-v10",
+   "label": "client chatter v10",
+   "url": "/hair-salon/assets/client-chatter-v10.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "90 KB",
+   "bytes": 91772,
+   "duration": 1.04
+  },
+  {
+   "id": "client-sigh-v10",
+   "label": "client sigh v10",
+   "url": "/hair-salon/assets/client-sigh-v10.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "60 KB",
+   "bytes": 61784,
+   "duration": 0.7
+  },
+  {
+   "id": "granny-grumble-v9",
+   "label": "granny grumble v9",
+   "url": "/hair-salon/assets/granny-grumble-v9.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "155 KB",
+   "bytes": 158804,
+   "duration": 1.8
+  },
+  {
+   "id": "granny-ouch-v10",
+   "label": "granny ouch v10",
+   "url": "/hair-salon/assets/granny-ouch-v10.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "134 KB",
+   "bytes": 136754,
+   "duration": 1.55
+  },
+  {
+   "id": "granny-pleased-v9",
+   "label": "granny pleased v9",
+   "url": "/hair-salon/assets/granny-pleased-v9.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "89 KB",
+   "bytes": 90890,
+   "duration": 1.03
+  },
+  {
+   "id": "oh-no-v6",
+   "label": "oh no v6",
+   "url": "/hair-salon/assets/oh-no-v6.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "34 KB",
+   "bytes": 34356,
+   "duration": 0.777
+  },
+  {
+   "id": "salon-bounce-v9",
+   "label": "salon bounce v9",
+   "url": "/hair-salon/assets/salon-bounce-v9.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "2.1 MB",
+   "bytes": 2171120,
+   "duration": 12.308
+  },
+  {
+   "id": "thanks-v6",
+   "label": "thanks v6",
+   "url": "/hair-salon/assets/thanks-v6.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "57 KB",
+   "bytes": 57994,
+   "duration": 1.81
+  },
+  {
+   "id": "girl-angry",
+   "label": "girl angry",
+   "url": "/hair-salon/assets/voices-v32/girl-angry.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "65 KB",
+   "bytes": 66830,
+   "duration": 0.757
+  },
+  {
+   "id": "girl-sigh",
+   "label": "girl sigh",
+   "url": "/hair-salon/assets/voices-v32/girl-sigh.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "58 KB",
+   "bytes": 59900,
+   "duration": 0.679
+  },
+  {
+   "id": "girl-sneeze",
+   "label": "girl sneeze",
+   "url": "/hair-salon/assets/voices-v32/girl-sneeze.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "76 KB",
+   "bytes": 77786,
+   "duration": 0.881
+  },
+  {
+   "id": "granny-angry",
+   "label": "granny angry",
+   "url": "/hair-salon/assets/voices-v32/granny-angry.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "127 KB",
+   "bytes": 129874,
+   "duration": 1.472
+  },
+  {
+   "id": "granny-pain",
+   "label": "granny pain",
+   "url": "/hair-salon/assets/voices-v32/granny-pain.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "70 KB",
+   "bytes": 71242,
+   "duration": 0.807
+  },
+  {
+   "id": "granny-sigh",
+   "label": "granny sigh",
+   "url": "/hair-salon/assets/voices-v32/granny-sigh.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "65 KB",
+   "bytes": 66370,
+   "duration": 0.752
+  },
+  {
+   "id": "man-angry",
+   "label": "man angry",
+   "url": "/hair-salon/assets/voices-v32/man-angry.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "116 KB",
+   "bytes": 118958,
+   "duration": 1.348
+  },
+  {
+   "id": "man-happy",
+   "label": "man happy",
+   "url": "/hair-salon/assets/voices-v32/man-happy.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "74 KB",
+   "bytes": 75400,
+   "duration": 0.854
+  },
+  {
+   "id": "man-pain",
+   "label": "man pain",
+   "url": "/hair-salon/assets/voices-v32/man-pain.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "51 KB",
+   "bytes": 52414,
+   "duration": 0.594
+  },
+  {
+   "id": "man-sigh",
+   "label": "man sigh",
+   "url": "/hair-salon/assets/voices-v32/man-sigh.wav",
+   "use": "Unused alternate take; not triggered by the current game.",
+   "source": "Earlier version",
+   "size": "65 KB",
+   "bytes": 66370,
+   "duration": 0.752
+  }
+ ],
+ "originals": [
+  {
+   "label": "achoo",
+   "url": "/hair-salon/asset-library/files/original-audio/achoo.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "236 KB",
+   "bytes": 241415,
+   "duration": 6.008
+  },
+  {
+   "label": "background music haor",
+   "url": "/hair-salon/asset-library/files/original-audio/background-music-haor.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "3.4 MB",
+   "bytes": 3582378,
+   "duration": 223.895
+  },
+  {
+   "label": "dingdong",
+   "url": "/hair-salon/asset-library/files/original-audio/dingdong.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "45 KB",
+   "bytes": 46019,
+   "duration": 1.123
+  },
+  {
+   "label": "door open",
+   "url": "/hair-salon/asset-library/files/original-audio/door-open.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "11 KB",
+   "bytes": 11752,
+   "duration": 0.731
+  },
+  {
+   "label": "ending bad",
+   "url": "/hair-salon/asset-library/files/original-audio/ending-bad.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "89 KB",
+   "bytes": 90950,
+   "duration": 3.762
+  },
+  {
+   "label": "ending great",
+   "url": "/hair-salon/asset-library/files/original-audio/ending-great.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "12 KB",
+   "bytes": 12504,
+   "duration": 2.456
+  },
+  {
+   "label": "girl no",
+   "url": "/hair-salon/asset-library/files/original-audio/girl-no.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "6 KB",
+   "bytes": 6319,
+   "duration": 0.392
+  },
+  {
+   "label": "girl sigh",
+   "url": "/hair-salon/asset-library/files/original-audio/girl-sigh.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "21 KB",
+   "bytes": 21359,
+   "duration": 2.638
+  },
+  {
+   "label": "grandma no",
+   "url": "/hair-salon/asset-library/files/original-audio/grandma-no.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "6 KB",
+   "bytes": 5901,
+   "duration": 0.366
+  },
+  {
+   "label": "grandma ouch",
+   "url": "/hair-salon/asset-library/files/original-audio/grandma-ouch.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "12 KB",
+   "bytes": 12170,
+   "duration": 0.757
+  },
+  {
+   "label": "grandma sigh",
+   "url": "/hair-salon/asset-library/files/original-audio/grandma-sigh.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "85 KB",
+   "bytes": 86842,
+   "duration": 3.344
+  },
+  {
+   "label": "man happy",
+   "url": "/hair-salon/asset-library/files/original-audio/man-happy.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "16 KB",
+   "bytes": 15932,
+   "duration": 0.993
+  },
+  {
+   "label": "man not happy",
+   "url": "/hair-salon/asset-library/files/original-audio/man-not-happy.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "21 KB",
+   "bytes": 21365,
+   "duration": 1.332
+  },
+  {
+   "label": "man ouch",
+   "url": "/hair-salon/asset-library/files/original-audio/man-ouch.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "20 KB",
+   "bytes": 20104,
+   "duration": 0.764
+  },
+  {
+   "label": "walk",
+   "url": "/hair-salon/asset-library/files/original-audio/walk.mp3",
+   "source": "Original upload",
+   "use": "Untrimmed source for editing.",
+   "size": "27 KB",
+   "bytes": 27635,
+   "duration": 1.724
+  }
+ ],
+ "images": [
+  {
+   "label": "Barber cap",
+   "url": "/hair-salon/assets/barber-cap-v11.png",
+   "use": "Current face-tracked cap. Transparent PNG.",
+   "size": "1.7 MB",
+   "bytes": 1733543,
+   "dimensions": "2172 × 724"
+  },
+  {
+   "label": "Barber moustache",
+   "url": "/hair-salon/assets/barber-moustache-v11.png",
+   "use": "Current face-tracked moustache. Transparent PNG.",
+   "size": "1.1 MB",
+   "bytes": 1121948,
+   "dimensions": "1536 × 1024"
+  },
+  {
+   "id": "gesture-hand",
+   "label": "Gesture hand",
+   "url": "/hair-salon/asset-library/files/ui/gesture-hand.svg",
+   "use": "Hand for the tap and swipe guides. Editable SVG.",
+   "size": "0 KB",
+   "bytes": 455
+  }
+ ],
+ "materials": [
+  {
+   "id": "granny-fabric-1",
+   "role": "granny",
+   "width": 256,
+   "height": 256,
+   "repeat": [
+    5,
+    7
+   ],
+   "tint": "ffffff",
+   "roughness": 0.92,
+   "url": "/hair-salon/asset-library/files/textures/granny-fabric-1.png",
+   "label": "Granny Fabric 1",
+   "use": "256 × 256 · UV repeat 5 × 7 · material tint #ffffff",
+   "size": "58 KB",
+   "bytes": 59191
+  },
+  {
+   "id": "granny-fabric-2",
+   "role": "granny",
+   "width": 256,
+   "height": 256,
+   "repeat": [
+    2,
+    2
+   ],
+   "tint": "ffffff",
+   "roughness": 0.92,
+   "url": "/hair-salon/asset-library/files/textures/granny-fabric-2.png",
+   "label": "Granny Fabric 2",
+   "use": "256 × 256 · UV repeat 2 × 2 · material tint #ffffff",
+   "size": "62 KB",
+   "bytes": 63797
+  },
+  {
+   "id": "girl-fabric-1",
+   "role": "girl",
+   "width": 256,
+   "height": 256,
+   "repeat": [
+    5,
+    6
+   ],
+   "tint": "ad8296",
+   "roughness": 0.92,
+   "url": "/hair-salon/asset-library/files/textures/girl-fabric-1.png",
+   "label": "Girl Fabric 1",
+   "use": "256 × 256 · UV repeat 5 × 6 · material tint #ad8296",
+   "size": "58 KB",
+   "bytes": 59191
+  },
+  {
+   "id": "man-fabric-1",
+   "role": "man",
+   "width": 128,
+   "height": 128,
+   "repeat": [
+    3,
+    5
+   ],
+   "tint": "ffffff",
+   "roughness": 0.88,
+   "url": "/hair-salon/asset-library/files/textures/man-fabric-1.png",
+   "label": "Man Fabric 1",
+   "use": "128 × 128 · UV repeat 3 × 5 · material tint #ffffff",
+   "size": "19 KB",
+   "bytes": 19689
+  },
+  {
+   "id": "man-fabric-2",
+   "role": "man",
+   "width": 128,
+   "height": 128,
+   "repeat": [
+    3,
+    5
+   ],
+   "tint": "ffffff",
+   "roughness": 0.91,
+   "url": "/hair-salon/asset-library/files/textures/man-fabric-2.png",
+   "label": "Man Fabric 2",
+   "use": "128 × 128 · UV repeat 3 × 5 · material tint #ffffff",
+   "size": "15 KB",
+   "bytes": 14909
+  }
+ ],
+ "props": [
+  {
+   "id": "tweezers",
+   "use": "Metal arms, grips and tips. Animated by game code.",
+   "glb": {
+    "url": "/hair-salon/asset-library/files/props/tweezers.glb",
+    "label": "GLB",
+    "size": "262 KB",
+    "bytes": 268248
+   },
+   "url": "/hair-salon/asset-library/files/props/tweezers.json",
+   "label": "Tweezers",
+   "size": "6 KB",
+   "bytes": 6467
+  },
+  {
+   "id": "scissors",
+   "use": "Separate blade pivots for the one-swipe cut.",
+   "glb": {
+    "url": "/hair-salon/asset-library/files/props/scissors.glb",
+    "label": "GLB",
+    "size": "164 KB",
+    "bytes": 167608
+   },
+   "url": "/hair-salon/asset-library/files/props/scissors.json",
+   "label": "Scissors",
+   "size": "6 KB",
+   "bytes": 6122
+  },
+  {
+   "id": "syringe",
+   "use": "Glass barrel, plunger and embedded timing gauge.",
+   "glb": {
+    "url": "/hair-salon/asset-library/files/props/syringe.glb",
+    "label": "GLB",
+    "size": "137 KB",
+    "bytes": 140168
+   },
+   "url": "/hair-salon/asset-library/files/props/syringe.json",
+   "label": "Planting syringe",
+   "size": "12 KB",
+   "bytes": 12303
+  },
+  {
+   "id": "graft-tuft",
+   "use": "A planted clump; four placement sites on the crown.",
+   "glb": {
+    "url": "/hair-salon/asset-library/files/props/graft-tuft.glb",
+    "label": "GLB",
+    "size": "62 KB",
+    "bytes": 63228
+   },
+   "url": "/hair-salon/asset-library/files/props/graft-tuft.json",
+   "label": "Hair tuft",
+   "size": "198 KB",
+   "bytes": 202851
+  },
+  {
+   "id": "chair",
+   "use": "Charcoal upholstery, chrome arms and headrest.",
+   "glb": {
+    "url": "/hair-salon/asset-library/files/props/chair.glb",
+    "label": "GLB",
+    "size": "510 KB",
+    "bytes": 522400
+   },
+   "url": "/hair-salon/asset-library/files/props/chair.json",
+   "label": "Barber chair",
+   "size": "25 KB",
+   "bytes": 25743
+  },
+  {
+   "id": "furnishings",
+   "use": "Original grouped scene; follows the client framing.",
+   "glb": {
+    "url": "/hair-salon/asset-library/files/props/furnishings.glb",
+    "label": "GLB",
+    "size": "1.5 MB",
+    "bytes": 1617916
+   },
+   "url": "/hair-salon/asset-library/files/props/furnishings.json",
+   "label": "Chair & workstations",
+   "size": "81 KB",
+   "bytes": 82957
+  },
+  {
+   "id": "tip-jar",
+   "use": "Glass and note meshes. Banknote artwork comes from payment.mjs.",
+   "glb": {
+    "url": "/hair-salon/asset-library/files/props/tip-jar.glb",
+    "label": "GLB",
+    "size": "504 KB",
+    "bytes": 515984
+   },
+   "url": "/hair-salon/asset-library/files/props/tip-jar.json",
+   "label": "Tip jar",
+   "size": "21 KB",
+   "bytes": 21884
+  },
+  {
+   "id": "granny-flames",
+   "use": "Granny / gentleman negative-result effect.",
+   "glb": {
+    "url": "/hair-salon/asset-library/files/props/granny-flames.glb",
+    "label": "GLB",
+    "size": "37 KB",
+    "bytes": 38104
+   },
+   "url": "/hair-salon/asset-library/files/props/granny-flames.json",
+   "label": "Anger flames",
+   "size": "4 KB",
+   "bytes": 4004
+  },
+  {
+   "id": "girl-tears",
+   "use": "The girl’s negative-result effect.",
+   "glb": {
+    "url": "/hair-salon/asset-library/files/props/girl-tears.glb",
+    "label": "GLB",
+    "size": "507 KB",
+    "bytes": 519308
+   },
+   "url": "/hair-salon/asset-library/files/props/girl-tears.json",
+   "label": "Streaming tears",
+   "size": "3 KB",
+   "bytes": 3032
+  }
+ ],
+ "states": [
+  [
+   "Camera gate",
+   "“Allow the camera” card. Open camera, or play without one.",
+   "#welcome · start-camera / start-practice"
+  ],
+  [
+   "Count-in",
+   "3, 2, 1 with a beep. The chair stays empty.",
+   "countIn()"
+  ],
+  [
+   "Arrival",
+   "The doorbell rings, then the client walks in sideways, sits and talks.",
+   "doorbell · walk / pose / request"
+  ],
+  [
+   "Service",
+   "Head turns, scratches and glasses adjustment; the girl sneezes.",
+   "pose(motionTime)"
+  ],
+  [
+   "Correct action",
+   "Brief smile and spring reaction.",
+   "expression(win) + positive"
+  ],
+  [
+   "Wrong action",
+   "Ouch, frustration or disappointment.",
+   "expression(lose) + pain / sigh"
+  ],
+  [
+   "Payment & departure",
+   "Stands, pays and walks out in the recorded mood.",
+   "ending + cash + character voice"
+  ],
+  [
+   "Happy results",
+   "Satisfied pose and bouncing arms. Three happy clients trigger confetti.",
+   "clientResults[].ending = happy"
+  ],
+  [
+   "Unhappy results",
+   "Angry pose with flames, or streaming tears. Each client keeps their own mood.",
+   "clientResults[].ending = angry"
+  ]
+ ],
+ "packages": {
+  "source": {
+   "url": "/hair-salon/asset-library/files/packages/panic-salon-game-source.zip",
+   "label": "Download ZIP",
+   "size": "15.1 MB",
+   "bytes": 15865762
+  },
+  "audio": {
+   "url": "/hair-salon/asset-library/files/packages/current-audio.zip",
+   "label": "Download ZIP",
+   "size": "2.5 MB",
+   "bytes": 2621740
+  },
+  "originals": {
+   "url": "/hair-salon/asset-library/files/packages/original-audio.zip",
+   "label": "Download ZIP",
+   "size": "3.7 MB",
+   "bytes": 3881916
+  },
+  "archive": {
+   "url": "/hair-salon/asset-library/files/packages/earlier-assets.zip",
+   "label": "Download ZIP",
+   "size": "4.0 MB",
+   "bytes": 4231171
+  },
+  "props": {
+   "url": "/hair-salon/asset-library/files/packages/props-and-effects.zip",
+   "label": "Download ZIP",
+   "size": "759 KB",
+   "bytes": 776852
+  },
+  "ui": {
+   "url": "/hair-salon/asset-library/files/packages/ui-and-filters.zip",
+   "label": "Download ZIP",
+   "size": "2.9 MB",
+   "bytes": 3032807
+  },
+  "materials": {
+   "url": "/hair-salon/asset-library/files/packages/material-maps.zip",
+   "label": "Download ZIP",
+   "size": "214 KB",
+   "bytes": 218916
+  }
+ }
 }
