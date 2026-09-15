@@ -247,8 +247,9 @@ function frame(now){
    else if(state==='result'){actionTime+=dt;if(actionTime>.12)resetRound(nextClient(client));}
    else if(state==='complete')updateCheckout(dt);
   }
-  const renderState=state==='complete'?'complete':state==='paused'?(pausedState==='new'?'welcome':pausedState):state;
-  salon.update({time:clock,state:renderState,checkoutTime,dayTotal,clientResults:earnings,t:actionTime,target,scanX:['action','result'].includes(renderState)?lockedX:scanX,whiteId,entranceTime,exitTime,ending,motionTime,readyTime,cutTime,cutGood,cutHolding,swipeX,swipeY,graftPoint,graftSite,graftTime,graftGood,graftPower,graftWindow,graftOutcome});
+  // during the 3-2-1 the chair stays empty; the client walks in on the doorbell
+  const renderState=counting?'entrance':state==='complete'?'complete':state==='paused'?(pausedState==='new'?'welcome':pausedState):state;
+  salon.update({time:clock,state:renderState,checkoutTime,dayTotal,clientResults:earnings,t:actionTime,target,scanX:['action','result'].includes(renderState)?lockedX:scanX,whiteId,entranceTime:counting?0:entranceTime,exitTime,ending,motionTime,readyTime,cutTime,cutGood,cutHolding,swipeX,swipeY,graftPoint,graftSite,graftTime,graftGood,graftPower,graftWindow,graftOutcome});
   updateGestureHint();updatePressureUI();
   if(client==='girl'&&cutHolding&&state!=='paused')applySwipe();
   soundtrack?.update(['entrance','ready','aim','action','cut','graft','graft-result','exit','result'].includes(state));renderer.render(scene,camera);renderFilter(now);sendFrame(now);
@@ -360,7 +361,7 @@ async function startWithEntranceAudio(){
 let counting=false,beepCtx=null;
 function beep(){if(muted)return;try{beepCtx=beepCtx||new (window.AudioContext||window.webkitAudioContext)();const t=beepCtx.currentTime,o=beepCtx.createOscillator(),g=beepCtx.createGain();o.type='sine';o.frequency.value=660;g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(.18,t+.01);g.gain.exponentialRampToValueAtTime(.0001,t+.18);o.connect(g).connect(beepCtx.destination);o.start(t);o.stop(t+.2);}catch{}}
 function countIn(done){
- if(counting)return;counting=true;$('welcome').hidden=true;$('result').hidden=true;game.classList.remove('shift-complete','total-landed');
+ if(counting)return;counting=true;state='welcome';client='granny';whiteId=chooseWhites();salon.reset(whiteId,client);$('welcome').hidden=true;$('result').hidden=true;game.classList.remove('shift-complete','total-landed');
  const el=$('count');let n=3;const show=()=>{el.textContent=String(n);el.hidden=false;el.classList.remove('pop');void el.offsetWidth;el.classList.add('pop');beep();};
  show();const iv=setInterval(()=>{n--;if(n>0)show();else{clearInterval(iv);el.hidden=true;counting=false;done();}},1000);
 }
