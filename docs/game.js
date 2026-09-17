@@ -3,7 +3,7 @@ import {selfieLayout,openSelfieStream} from './camera-view.mjs?v=35';
 import {Soundtrack} from './soundtrack.mjs?v=35';
 import {FaceTracker} from './face-tracker.mjs?v=35';
 import * as THREE from './vendor/three.module.js';
-import {createSalon} from './avatar.mjs?v=39';
+import {createSalon} from './avatar.mjs?v=40';
 import {shiftSucceeded,CONFIG,FLOW,CLOSE,SWIPE,GRAFT,graftChallenge,judgeGraft,girlFidget,judgeSweep,calculateTip,nextClient,chooseTarget,advanceScan,chooseWhites,resolvePluck,clientOutcome,clamp,lerp} from './rules.mjs?v=35';
 
 const $=id=>document.getElementById(id);

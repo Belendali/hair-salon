@@ -89,7 +89,7 @@ export function createSalon(scene,{setting='contain'}={}){
   let height=17.3,baseY=-5.9;
   // TikTok Effect safe zones: the client, chair and counter sit 28% higher so the head and hair stay inside the core zone
   let lift=0;const SAFE_LIFT=.28;
-  function setSize(h){height=h;lift=h*SAFE_LIFT;furnishings.position.y=-h/2+lift;baseY=-height/2+lift+2.55;head.position.y=baseY;counter.position.y=baseY-3.35;counterLip.position.set(0,baseY-2.05,2.8);}
+  function setSize(h){height=h;lift=h*SAFE_LIFT;furnishings.position.y=-h/2+lift;baseY=-height/2+lift+2.55;head.position.y=baseY;const cTop=baseY-2.05,cBottom=-h/2-0.4;counter.scale.y=(cTop-cBottom)/2.6;counter.position.y=(cTop+cBottom)/2;counterLip.position.set(0,baseY-2.05,2.8);}
   function reset(whiteId,kind='granny'){
     for(const root of [grannyRoot,girlRoot,manRoot]){root.position.set(0,0,0);root.rotation.set(0,0,0);root.scale.setScalar(1);}
     tipJar.visible=false;Object.values(rageEffects).forEach(e=>e.update(0,false));
