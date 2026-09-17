@@ -87,7 +87,12 @@ export function createSalon(scene,{setting='contain'}={}){
   const guideMat=new T.MeshBasicMaterial({color:'#dcf579',transparent:true,opacity:.78,depthTest:false,depthWrite:false});
   for(let i=0;i<11;i++){const dash=new T.Mesh(new T.BoxGeometry(.115,.014,.012),guideMat);dash.position.set(-1.02+i*.204,SWIPE.targetY,1.45);dash.renderOrder=8;guide.add(dash);}guide.visible=false;
   let height=17.3,baseY=-5.9;
-  function setSize(h){height=h;furnishings.position.y=-h/2;baseY=-height/2+2.55;head.position.y=baseY;counter.position.y=baseY-3.35;counterLip.position.set(0,baseY-2.05,2.8);}
+  // ?zones is the TikTok Effect safe-zone build: the client, chair and counter sit 28% higher so the head and hair stay inside the core zone, and the counter stretches to the bottom edge. The plain link keeps them at the bottom.
+  const ZONES=new URLSearchParams(location.search).has('zones');
+  let lift=0;const SAFE_LIFT=ZONES?.28:0;
+  function setSize(h){height=h;lift=h*SAFE_LIFT;furnishings.position.y=-h/2+lift;baseY=-height/2+lift+2.55;head.position.y=baseY;
+    if(ZONES){const cTop=baseY-2.05,cBottom=-h/2-0.4;counter.scale.y=(cTop-cBottom)/2.6;counter.position.y=(cTop+cBottom)/2;}else counter.position.y=baseY-3.35;
+    counterLip.position.set(0,baseY-2.05,2.8);}
   function reset(whiteId,kind='granny'){
     for(const root of [grannyRoot,girlRoot,manRoot]){root.position.set(0,0,0);root.rotation.set(0,0,0);root.scale.setScalar(1);}
     tipJar.visible=false;Object.values(rageEffects).forEach(e=>e.update(0,false));
@@ -103,7 +108,7 @@ export function createSalon(scene,{setting='contain'}={}){
       [grannyRoot,girlRoot,manRoot].forEach((root,i)=>{
         const kind=['granny','girl','man'][i],m=models[kind],success=clientResults.find(r=>r.client===kind)?.ending==='happy',arrive=smooth(clamp((age-.2-i*.16)/.70)),dance=Math.max(0,age-1.15-i*.1);
         root.userData.ending=success?'happy':'angry';root.visible=true;root.scale.setScalar(.62);
-        root.position.set(lerp(i===1?0:(i===0?-6:6),(i-1)*2.35,arrive),-height/2+2.65+(1-arrive)*-.6+(success?Math.abs(Math.sin(dance*5.5))*.32:0),0);
+        root.position.set(lerp(i===1?0:(i===0?-6:6),(i-1)*2.35,arrive),-height/2+lift+2.65+(1-arrive)*-.6+(success?Math.abs(Math.sin(dance*5.5))*.32:0),0);
         root.rotation.set(0,0,success?Math.sin(dance*5.5+i)*.04:0);
         m.pose({motionTime:0,entering:false,departing:false,angry:!success,poseStrength:0});
         m.portrait.rotation.set(0,0,success?0:(i-1)*.035);
@@ -153,7 +158,7 @@ export function createSalon(scene,{setting='contain'}={}){
     const focus=state==='ready'?smooth((readyTime-.05)/.85):['aim','action','cut','graft','graft-result'].includes(state)?1:departing?1-smooth(exitTime/.55):0;
     const serviceScale=client==='girl'?CLOSE.girlScale:client==='man'?CLOSE.manScale:CLOSE.scale,serviceOffset=client==='girl'?CLOSE.girlBaseOffset:client==='man'?CLOSE.manBaseOffset:CLOSE.baseOffset;
     const zoom=lerp(1,serviceScale,focus);head.scale.multiplyScalar(zoom);
-    head.position.y+=(-height/2+serviceOffset-baseY)*focus;
+    head.position.y+=(-height/2+lift+serviceOffset-baseY)*focus;
     counter.visible=counterLip.visible=setting==='contain'&&focus<.98;
     shadow.visible=head.visible&&!entering&&!departing&&focus<.5;
     shadow.position.set(head.position.x,(entering||departing)?baseY+.12:baseY-2.28,-.4);
@@ -167,13 +172,13 @@ export function createSalon(scene,{setting='contain'}={}){
     furnishings.scale.setScalar(zoom);
     furnishings.position.set(
       !entering&&!departing?head.position.x*focus:0,
-      baseY-2.55*zoom+(-height/2+serviceOffset-baseY)*focus,
+      baseY-2.55*zoom+(-height/2+lift+serviceOffset-baseY)*focus,
       0
     );
     head.updateMatrixWorld(true);
     if(money.visible){const handPos=model.limbs[1].hand.getWorldPosition(new T.Vector3()),pay=smooth(clamp((exitTime-.65)/.60));money.position.copy(handPos).lerp(new T.Vector3(1.55,baseY-1.88,3.5),pay);money.position.z=3.5;}
 
-    const restY=lerp(baseY+4.08,-height/2+CLOSE.baseOffset+3.68*CLOSE.scale,focus)+CLOSE.tweezerLift*focus;
+    const restY=lerp(baseY+4.08,-height/2+lift+CLOSE.baseOffset+3.68*CLOSE.scale,focus)+CLOSE.tweezerLift*focus;
     let tx=scanX,ty=restY,open=1;
     if(active){const currentTip=target?portrait.localToWorld(target.tip.clone()):null;
       if(target&&t>=.55&&!target.pluckPosition)target.pluckPosition=currentTip.clone();
@@ -199,7 +204,7 @@ export function createSalon(scene,{setting='contain'}={}){
       h.mesh.userData.radius=(h.white?.072:.080)*lerp(1,1.45,focus);updateTube(h.mesh,root,tip,bend);h.renderTip.copy(tip);
     }
     if(scissors.visible){
-      const toolScale=SWIPE.toolScale,cy=swipeY??(-height/2+CLOSE.girlBaseOffset+SWIPE.targetY*CLOSE.girlScale);
+      const toolScale=SWIPE.toolScale,cy=swipeY??(-height/2+lift+CLOSE.girlBaseOffset+SWIPE.targetY*CLOSE.girlScale);
       scissors.position.set(swipeX+.26*toolScale,cy,3.05);scissors.scale.setScalar(toolScale);
       const gape=cutHolding?.035+.18*Math.abs(Math.sin(time*39)):.20+Math.sin(time*3)*.025;
       blades.forEach(({pivot,side})=>pivot.rotation.z=side*gape);
@@ -214,7 +219,7 @@ export function createSalon(scene,{setting='contain'}={}){
         const destination=plantPoint.clone();
         const elapsed=Math.max(0,Math.min(.06,time-(graftTool.userData.lastTime??time)));
         const x=graftTool.userData.ready?lerp(graftTool.position.x,destination.x,1-Math.exp(-elapsed*12)):destination.x;
-        const origin=new T.Vector3(x,-height/2+5.25,destination.z+.25);
+        const origin=new T.Vector3(x,-height/2+lift+5.25,destination.z+.25);
         graftTool.userData.ready=true;graftTool.userData.lastTime=time;
         graftTool.position.copy(origin);graftTool.scale.setScalar(1.36);graftTool.rotation.z=0;
         const compression=state==='aim'?0:Math.max(0,1-(graftTime+GRAFT.flightTime)/.28);
@@ -260,8 +265,8 @@ export function createSalon(scene,{setting='contain'}={}){
   function getGraftTarget(point){if(client!=='man')return null;head.updateMatrixWorld(true);let best=null,distance=GRAFT.hitRadius;
     for(const site of model.sites){if(site.filled)continue;const p=portrait.localToWorld(site.position.clone()),d=Math.hypot(point.x-p.x,point.y-p.y);if(d<=distance){best=site;distance=d;}}return best;
   }
-  setSize(height);reset(5);return {head,furnishings,get body(){return body;},counter,get limbs(){return limbs;},money,get glasses(){return glasses;},get model(){return model;},hairs,tweezers,scissors,graftTool,getGraftTarget,getGraftSource:()=>({x:GRAFT.sourceX,y:-height/2+GRAFT.sourceHeight}),getGraftSitePosition:i=>{head.updateMatrixWorld(true);return portrait.localToWorld(model.sites[i].position.clone());},plantGraft:(i,time)=>client==='man'&&model.plant(i,time),setTip:payment.setValue,
-    getSwipeStart:()=>({x:SWIPE.startX,y:-height/2+CLOSE.girlBaseOffset+SWIPE.targetY*CLOSE.girlScale}),
+  setSize(height);reset(5);return {head,furnishings,get body(){return body;},counter,get limbs(){return limbs;},money,get glasses(){return glasses;},get model(){return model;},hairs,tweezers,scissors,graftTool,getGraftTarget,getGraftSource:()=>({x:GRAFT.sourceX,y:-height/2+lift+GRAFT.sourceHeight}),getGraftSitePosition:i=>{head.updateMatrixWorld(true);return portrait.localToWorld(model.sites[i].position.clone());},plantGraft:(i,time)=>client==='man'&&model.plant(i,time),setTip:payment.setValue,
+    getSwipeStart:()=>({x:SWIPE.startX,y:-height/2+lift+CLOSE.girlBaseOffset+SWIPE.targetY*CLOSE.girlScale}),
     getPortraitMatrix:()=>{head.updateMatrixWorld(true);return portrait.matrixWorld.clone();},sweepCut,
     getCutHeight:y=>swipeLocal({x:scissors.position.x-.26*SWIPE.toolScale,y:y??scissors.position.y})?.y??1.14,setSize,reset,update,getBaseY:()=>baseY};
 }

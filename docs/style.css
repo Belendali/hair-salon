@@ -135,3 +135,9 @@ html[data-camera-mode="salon"] #selfie-ambient{filter:blur(15px) saturate(.65);o
 
 /* no pause, camera or sound buttons during play */
 #game .top-actions{display:none}
+/* TikTok Effect safe zones (390×694), ?zones only: HUD and result inside the core zone, x 65–325, y 82–533 */
+.zones #game .topbar{display:none}
+.zones #game .top-hint{top:13%;left:50%;right:auto;transform:translateX(-50%);max-width:66.6%}
+.zones #game .bottom-bar{top:calc(13% + 56px);bottom:auto;padding:0 17%}
+.zones #game .tip-chip{top:calc(13% + 104px);right:17.5%}
+.zones #game .checkout.panel{top:44.3%;max-height:64%}
