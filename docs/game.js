@@ -3,7 +3,7 @@ import {selfieLayout,openSelfieStream} from './camera-view.mjs?v=35';
 import {Soundtrack} from './soundtrack.mjs?v=35';
 import {FaceTracker} from './face-tracker.mjs?v=35';
 import * as THREE from './vendor/three.module.js';
-import {createSalon} from './avatar.mjs?v=40';
+import {createSalon} from './avatar.mjs?v=41';
 import {shiftSucceeded,CONFIG,FLOW,CLOSE,SWIPE,GRAFT,graftChallenge,judgeGraft,girlFidget,judgeSweep,calculateTip,nextClient,chooseTarget,advanceScan,chooseWhites,resolvePluck,clientOutcome,clamp,lerp} from './rules.mjs?v=35';
 
 const $=id=>document.getElementById(id);
@@ -394,5 +394,3 @@ document.addEventListener('keyup',e=>{if(e.code==='Space'){if(cutHolding){e.prev
 document.addEventListener('visibilitychange',()=>{if(document.hidden){pauseGame();audio?.suspend().catch(()=>{});}lastTime=0;});
 window.addEventListener('pagehide',()=>{soundtrack?.hush();disableCamera();});
 init();
-// ?zones draws TikTok Effect safe zones (390×694 effect canvas) over the game, same as the other games
-if(new URLSearchParams(location.search).has('zones')){const zs=document.createElement('style');zs.textContent='.tt-zones{position:absolute;inset:0;z-index:60;pointer-events:none;font:700 10px system-ui}.tt-zones i{position:absolute;box-sizing:border-box}.tt-zones .clip{left:0;top:0;bottom:0;width:4.87%;background:rgba(255,0,80,.18)}.tt-zones .clip.r{left:auto;right:0}.tt-zones .vis{left:4.87%;top:11.96%;width:90.26%;height:37.18%;border:1.5px dashed #4ec9b0}.tt-zones .core2{left:16.67%;top:11.96%;width:66.67%;height:66.57%;border:1.5px dashed #4ec9b0}.tt-zones .core{left:16.67%;top:11.82%;width:66.67%;height:64.99%;border:2px solid #ffe052}.tt-zones .core b{position:absolute;left:3px;bottom:100%;margin-bottom:3px;color:#ffe052}.tt-zones em{position:absolute;font-style:normal}.tt-zones .vl{left:5.6%;top:49.6%;color:#4ec9b0}.tt-zones .cl{left:2px;bottom:6px;color:#ff5c8a}';document.head.append(zs);const zo=document.createElement('div');zo.className='tt-zones';zo.innerHTML='<i class="clip"></i><i class="clip r"></i><i class="vis"></i><i class="core2"></i><i class="core"><b>CORE 260×451</b></i><em class="vl">VISUAL</em><em class="cl">CLIP</em>';document.querySelector('#game').append(zo);}
