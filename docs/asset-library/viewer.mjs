@@ -1,8 +1,8 @@
-import * as T from '/vendor/three.module.js';
-import {createGranny} from 'https://panic-salon-bella.belendali.chatgpt.site/demo-34/granny-model.mjs';
-import {createGirl} from 'https://panic-salon-bella.belendali.chatgpt.site/demo-34/girl-model.mjs';
-import {createMan} from 'https://panic-salon-bella.belendali.chatgpt.site/demo-34/man-model.mjs';
-import {createPayment} from 'https://panic-salon-bella.belendali.chatgpt.site/demo-34/payment.mjs';
+import * as T from '../vendor/three.module.js';
+import {createGranny} from '../granny-model.mjs?v=35';
+import {createGirl} from '../girl-model.mjs?v=35';
+import {createMan} from '../man-model.mjs?v=35';
+import {createPayment} from '../payment.mjs?v=35';
 const $=s=>document.querySelector(s),dialog=$('#viewer'),host=$('#viewport');
 let renderer,scene,camera,object,model,effect,pose='idle',yaw=0,drag=null,last=0,elapsed=0,paused=false,generation=0;
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;

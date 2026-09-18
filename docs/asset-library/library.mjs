@@ -35,5 +35,5 @@ document.addEventListener('click',async e=>{
  audio.onended=()=>{if(sequence===token)stopAudio();};audio.onerror=fail;try{await audio.play();}catch{fail();}
 });$('#audio-status button').onclick=stopAudio;
 document.addEventListener('visibilitychange',()=>{if(document.hidden)stopAudio();});
-let previewModule;async function openPreview(id,label){stopAudio();try{previewModule??=await import('./viewer.mjs?v=1');await previewModule.open(id,label);}catch(e){console.error(e);$('#viewer-loading').textContent='3D preview could not load. You can still download the asset.';}}
+let previewModule;async function openPreview(id,label){stopAudio();try{previewModule??=await import('./viewer.mjs?v=2');await previewModule.open(id,label);}catch(e){console.error(e);$('#viewer-loading').textContent='3D preview could not load. You can still download the asset.';}}
 load();
